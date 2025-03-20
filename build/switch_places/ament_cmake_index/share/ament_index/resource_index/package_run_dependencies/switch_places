@@ -1,0 +1,1 @@
+rclcpp;std_msgs;geometry_msgs;nav2_common;nav2_util;nav2_msgs;action_msgs;tf2;tf2_ros;gazebo_ros;rclcpp_action;rosidl_default_runtime;rosidl_interface_packages;action_tutorials_interfaces;ament_lint_auto;ament_lint_common

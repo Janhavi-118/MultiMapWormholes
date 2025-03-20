@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[0.063s] [ 50%] Built target move_to_map_client
+[0.077s] [ 75%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[1.873s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::switch_map(const string&)[m[K’:
+[1.873s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:189:38:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[1.873s]   189 |         bool res = [01;31m[Kdelete_robot_model()[m[K;
+[1.874s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[1.874s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:230:44:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[1.874s]   230 |         bool res3 = [01;31m[Kspawn_robot_at_position(wormhole_x, wormhole_y)[m[K;
+[1.874s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.026s] gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+[3.026s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+[3.026s] gmake: *** [Makefile:146: all] Error 2
+[3.028s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12

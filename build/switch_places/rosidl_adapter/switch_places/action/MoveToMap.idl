@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from switch_places/action/MoveToMap.action
+// generated code does not contain a copyright notice
+
+
+module switch_places {
+  module action {
+    @verbatim (language="comment", text=
+      "MoveToMap.action" "\n"
+      "Goal")
+    struct MoveToMap_Goal {
+      @verbatim (language="comment", text=
+        "Target map name")
+      string map_name;
+
+      @verbatim (language="comment", text=
+        "Target x-coordinate")
+      double x;
+
+      @verbatim (language="comment", text=
+        "Target y-coordinate")
+      double y;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MoveToMap_Result {
+      @verbatim (language="comment", text=
+        "Whether the robot reached the target or not")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Additional message")
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MoveToMap_Feedback {
+      @verbatim (language="comment", text=
+        "Current x-coordinate")
+      double current_x;
+
+      @verbatim (language="comment", text=
+        "Current y-coordinate")
+      double current_y;
+    };
+  };
+};

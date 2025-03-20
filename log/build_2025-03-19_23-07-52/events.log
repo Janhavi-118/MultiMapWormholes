@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (switch_places) JobQueued: {'identifier': 'switch_places', 'dependencies': OrderedDict()}
+[0.000551] (switch_places) JobStarted: {'identifier': 'switch_places'}
+[0.004985] (switch_places) JobProgress: {'identifier': 'switch_places', 'progress': 'cmake'}
+[0.005440] (switch_places) Command: {'cmd': ['/usr/bin/cmake', '/home/janhavi/MultiMapWormholes/src/switch_places', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janhavi/MultiMapWormholes/install/switch_places'], 'cwd': '/home/janhavi/MultiMapWormholes/build/switch_places', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('OLDPWD', '/home/janhavi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '8555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2017,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2017'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe8a6e4a_fa4d_4845_b015_a6d118685872'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UY2G32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/MultiMapWormholes/build/switch_places'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016378] (switch_places) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.096315] (switch_places) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.099856] (-) TimerEvent: {}
+[0.100063] (switch_places) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.116887] (switch_places) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.118178] (switch_places) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.121507] (switch_places) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.126972] (switch_places) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.134214] (switch_places) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.156038] (switch_places) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.156676] (switch_places) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.167501] (switch_places) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.195616] (switch_places) StdoutLine: {'line': b'-- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[0.195855] (switch_places) StdoutLine: {'line': b'-- Found nav2_util: 1.1.18 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[0.200042] (-) TimerEvent: {}
+[0.278772] (switch_places) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.279546] (switch_places) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.300195] (-) TimerEvent: {}
+[0.305049] (switch_places) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[0.326405] (switch_places) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.400400] (-) TimerEvent: {}
+[0.500634] (-) TimerEvent: {}
+[0.503636] (switch_places) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600724] (-) TimerEvent: {}
+[0.700993] (-) TimerEvent: {}
+[0.720470] (switch_places) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800913] (switch_places) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801062] (-) TimerEvent: {}
+[0.821185] (switch_places) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.838239] (switch_places) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.838414] (switch_places) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.838479] (switch_places) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.849445] (switch_places) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.864825] (switch_places) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.865241] (switch_places) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.865405] (switch_places) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.865593] (switch_places) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.865798] (switch_places) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.865887] (switch_places) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.866035] (switch_places) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.867400] (switch_places) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.898384] (switch_places) StdoutLine: {'line': b'-- Generating done\n'}
+[0.901179] (-) TimerEvent: {}
+[0.907976] (switch_places) StdoutLine: {'line': b'-- Build files have been written to: /home/janhavi/MultiMapWormholes/build/switch_places\n'}
+[0.916743] (switch_places) CommandEnded: {'returncode': 0}
+[0.917268] (switch_places) JobProgress: {'identifier': 'switch_places', 'progress': 'build'}
+[0.917302] (switch_places) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janhavi/MultiMapWormholes/build/switch_places', '--', '-j12', '-l12'], 'cwd': '/home/janhavi/MultiMapWormholes/build/switch_places', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('OLDPWD', '/home/janhavi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '8555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2017,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2017'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe8a6e4a_fa4d_4845_b015_a6d118685872'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UY2G32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/MultiMapWormholes/build/switch_places'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.953337] (switch_places) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.965575] (switch_places) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/move_to_map_client.dir/src/move_to_map_client.cpp.o\x1b[0m\n'}
+[0.965859] (switch_places) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.969525] (switch_places) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o\x1b[0m\n'}
+[0.970462] (switch_places) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_switch_places\n'}
+[1.001261] (-) TimerEvent: {}
+[1.098000] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kswitch_places/action/move_to_map.hpp: No such file or directory\n'}
+[1.098197] (switch_places) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"switch_places/action/move_to_map.hpp"\x1b[m\x1b[K\n'}
+[1.098294] (switch_places) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.098367] (switch_places) StderrLine: {'line': b'compilation terminated.\n'}
+[1.099655] (switch_places) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_to_map_client.dir/build.make:76: CMakeFiles/move_to_map_client.dir/src/move_to_map_client.cpp.o] Error 1\n'}
+[1.099851] (switch_places) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/move_to_map_client.dir/all] Error 2\n'}
+[1.099945] (switch_places) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.101317] (-) TimerEvent: {}
+[1.155298] (switch_places) StdoutLine: {'line': b'running egg_info\n'}
+[1.173515] (switch_places) StdoutLine: {'line': b'creating switch_places.egg-info\n'}
+[1.173730] (switch_places) StdoutLine: {'line': b'writing switch_places.egg-info/PKG-INFO\n'}
+[1.174019] (switch_places) StdoutLine: {'line': b'writing dependency_links to switch_places.egg-info/dependency_links.txt\n'}
+[1.174338] (switch_places) StdoutLine: {'line': b'writing top-level names to switch_places.egg-info/top_level.txt\n'}
+[1.174464] (switch_places) StdoutLine: {'line': b"writing manifest file 'switch_places.egg-info/SOURCES.txt'\n"}
+[1.177980] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kswitch_places/action/move_to_map.hpp: No such file or directory\n'}
+[1.178092] (switch_places) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"switch_places/action/move_to_map.hpp"\x1b[m\x1b[K\n'}
+[1.178158] (switch_places) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.178222] (switch_places) StderrLine: {'line': b'compilation terminated.\n'}
+[1.180038] (switch_places) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1\n'}
+[1.180180] (switch_places) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/move_to_map_server.dir/all] Error 2\n'}
+[1.201411] (-) TimerEvent: {}
+[1.211010] (switch_places) StdoutLine: {'line': b"reading manifest file 'switch_places.egg-info/SOURCES.txt'\n"}
+[1.211650] (switch_places) StdoutLine: {'line': b"writing manifest file 'switch_places.egg-info/SOURCES.txt'\n"}
+[1.235939] (switch_places) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_switch_places_egg\n'}
+[1.301497] (-) TimerEvent: {}
+[1.335480] (switch_places) StdoutLine: {'line': b'[ 11%] Built target switch_places__cpp\n'}
+[1.401610] (-) TimerEvent: {}
+[1.411721] (switch_places) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/switch_places__rosidl_generator_c.dir/rosidl_generator_c/switch_places/action/detail/move_to_map__functions.c.o\x1b[0m\n'}
+[1.490322] (switch_places) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libswitch_places__rosidl_generator_c.so\x1b[0m\n'}
+[1.501742] (-) TimerEvent: {}
+[1.514442] (switch_places) StdoutLine: {'line': b'[ 17%] Built target switch_places__rosidl_generator_c\n'}
+[1.515532] (switch_places) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.517144] (switch_places) CommandEnded: {'returncode': 2}
+[1.521638] (switch_places) JobEnded: {'identifier': 'switch_places', 'rc': 2}
+[1.531994] (-) EventReactorShutdown: {}

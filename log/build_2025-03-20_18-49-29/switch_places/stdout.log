@@ -1,0 +1,23 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[ 75%] Built target move_to_map_client
+[100%] [32m[1mLinking CXX executable move_to_map_server[0m
+[100%] Built target move_to_map_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_server
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_client
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/package_run_dependencies/switch_places
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/parent_prefix_path/switch_places
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.sh
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.dsv
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.bash
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.sh
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.zsh
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.dsv
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.dsv
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/packages/switch_places
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig.cmake
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig-version.cmake
+-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.xml

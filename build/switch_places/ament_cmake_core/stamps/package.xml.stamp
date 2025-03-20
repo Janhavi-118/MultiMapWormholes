@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>switch_places</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="janhavic.2604@gmail.com">janhavi</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav2_common</depend>
+  <depend>nav2_util</depend>
+  <depend>nav2_msgs</depend>
+  <depend>action_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+
+  <!-- Optional: If you're using specific ROS tools like Gazebo -->
+  <depend>gazebo_ros</depend>
+
+  <build_depend>rclcpp_action</build_depend>
+  <build_depend>action_tutorials_interfaces</build_depend>  <!-- your generated interface package -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>rosidl_interface_packages</build_depend>
+
+  <exec_depend>rclcpp_action</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>rosidl_interface_packages</exec_depend>
+  <exec_depend>action_tutorials_interfaces</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

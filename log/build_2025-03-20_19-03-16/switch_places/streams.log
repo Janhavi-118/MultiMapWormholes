@@ -1,0 +1,13 @@
+[0.010s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[0.061s] [ 50%] Built target move_to_map_client
+[0.075s] [ 75%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[2.299s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places_msgs::action::MoveToMap> >)[m[K’:
+[2.299s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:85:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_map[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_room[m[K’?
+[2.299s]    85 |             navigate_to_wormhole([01;31m[Kcurrent_map[m[K);
+[2.299s]       |                                  [01;31m[K^~~~~~~~~~~[m[K
+[2.299s]       |                                  [32m[Kcurrent_room[m[K
+[3.876s] gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+[3.876s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+[3.876s] gmake: *** [Makefile:146: all] Error 2
+[3.878s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12

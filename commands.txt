@@ -1,0 +1,16 @@
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
+ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=/home/janhavi/MultiMapWormholes/src/maps/entrance.yaml
+ros2 lifecycle set /map_server configure
+ros2 lifecycle set /map_server activate
+ros2 run rviz2 rviz2
+ros2 service call /map_server/load_map nav2_msgs/srv/LoadMap "{map_url: /home/janhavi/MultiMapWormholes/src/maps/entrance.yaml}"
+ros2 launch nav2_bringup navigation_launch.py map:=/home/janhavi/MultiMapWormholes/src/maps/entrance.yaml use_sim_time:=true
+ros2 launch nav2_bringup localization_launch.py map:=/home/janhavi/MultiMapWormholes/src/maps/entrance.yaml
+ros2 lifecycle set /amcl configure
+ros2 lifecycle set /amcl activate
+
+source install/setup.bash 
+ros2 run switch_places move_to_map_server 
+
+ros2 run switch_places move_to_map_client 
+

@@ -1,0 +1,49 @@
+[0.009s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[0.062s] [ 50%] Built target move_to_map_client
+[0.070s] [ 75%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[0.249s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:383:36:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.250s]   383 |             self.get_logger().info([01;35m[K'Loading entity XML from file %s'[m[K % self.file)
+[0.250s]       |                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.250s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:385:41:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.250s]   385 |                 self.get_logger().error([01;35m[K'Error: specified file %s does not exist'[m[K, self.file)
+[0.250s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.250s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:388:41:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.250s]   388 |                 self.get_logger().error([01;35m[K'Error: specified file %s is not a file'[m[K, self.file)
+[0.250s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.250s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:390:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #load
+[0.250s]   390 |             # [01;31m[Kload[m[K file
+[0.250s]       |               [01;31m[K^~~~[m[K
+[0.250s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:395:41:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.250s]   395 |                 self.get_logger().error([01;35m[K'Error reading file {}: {}'[m[K.format(self.file, e))
+[0.251s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.251s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:397:30:[m[K [01;31m[Kerror: [m[Kempty character constant
+[0.251s]   397 |             if entity_xml == [01;31m[K''[m[K:
+[0.251s]       |                              [01;31m[K^~[m[K
+[0.251s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:398:41:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.251s]   398 |                 self.get_logger().error([01;35m[K'Error: file %s is empty'[m[K, self.file)
+[0.251s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.506s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::spawn_robot_at_position(float, float)[m[K’:
+[2.507s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:317:21:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KMoveToMapActionServer::spawn_robot_at_position(float, float)::stat buffer[m[K’ has incomplete type and cannot be defined
+[2.507s]   317 |         struct stat [01;31m[Kbuffer[m[K;
+[2.507s]       |                     [01;31m[K^~~~~~[m[K
+[2.507s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:318:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct MoveToMapActionServer::spawn_robot_at_position(float, float)::stat[m[K’
+[2.507s]   318 |         if (stat(file.c_str(), &buffer[01;31m[K)[m[K != 0) {
+[2.507s]       |                                       [01;31m[K^[m[K
+[2.507s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:317:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct MoveToMapActionServer::spawn_robot_at_position(float, float)::stat[m[K’
+[2.507s]   317 |         struct [01;36m[Kstat[m[K buffer;
+[2.507s]       |                [01;36m[K^~~~[m[K
+[2.512s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:324:14:[m[K [01;31m[Kerror: [m[K‘[01m[KS_ISREG[m[K’ was not declared in this scope
+[2.512s]   324 |         if (![01;31m[KS_ISREG[m[K(buffer.st_mode)) {
+[2.512s]       |              [01;31m[K^~~~~~~[m[K
+[2.514s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:349:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[2.514s]   349 |         request->xml = [01;31m[K=[m[K entity_xml;  // Leave XML empty as we're passing coordinates directly
+[2.514s]       |                        [01;31m[K^[m[K
+[2.529s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K At global scope:
+[2.529s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:383:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kself[m[K’ does not name a type
+[2.529s]   383 |             [01;31m[Kself[m[K.get_logger().info('Loading entity XML from file %s' % self.file)
+[2.529s]       |             [01;31m[K^~~~[m[K
+[4.169s] gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+[4.169s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+[4.170s] gmake: *** [Makefile:146: all] Error 2
+[4.171s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12

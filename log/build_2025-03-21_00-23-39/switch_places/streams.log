@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[0.062s] [ 50%] Built target move_to_map_client
+[0.073s] [ 75%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[2.438s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::publish_initial_pose(float, float)[m[K’:
+[2.438s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:266:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+[2.438s]   266 |         pose_msg.pose.[01;31m[Kposition[m[K.x = x;
+[2.438s]       |                       [01;31m[K^~~~~~~~[m[K
+[2.438s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:267:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+[2.438s]   267 |         pose_msg.pose.[01;31m[Kposition[m[K.y = y;
+[2.438s]       |                       [01;31m[K^~~~~~~~[m[K
+[2.438s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:268:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[2.439s]   268 |         pose_msg.pose.[01;31m[Korientation[m[K.w = 1.0;  // Default orientation (no rotation)
+[2.439s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[2.439s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:270:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcovariane[m[K’; did you mean ‘[01m[Kcovariance[m[K’?
+[2.439s]   270 |             pose_msg.pose.[01;31m[Kcovariane[m[K[i] = 0.0;
+[2.439s]       |                           [01;31m[K^~~~~~~~~[m[K
+[2.439s]       |                           [32m[Kcovariance[m[K
+[2.439s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:272:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcovariane[m[K’; did you mean ‘[01m[Kcovariance[m[K’?
+[2.439s]   272 |         pose_msg.pose.[01;31m[Kcovariane[m[K[0] = 0.1;
+[2.439s]       |                       [01;31m[K^~~~~~~~~[m[K
+[2.439s]       |                       [32m[Kcovariance[m[K
+[2.439s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:273:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcovariane[m[K’; did you mean ‘[01m[Kcovariance[m[K’?
+[2.439s]   273 |         pose_msg.pose.[01;31m[Kcovariane[m[K[7] = 0.1;
+[2.439s]       |                       [01;31m[K^~~~~~~~~[m[K
+[2.439s]       |                       [32m[Kcovariance[m[K
+[2.439s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:274:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcovariane[m[K’; did you mean ‘[01m[Kcovariance[m[K’?
+[2.439s]   274 |         pose_msg.pose.[01;31m[Kcovariane[m[K[14] = 0.1;
+[2.440s]       |                       [01;31m[K^~~~~~~~~[m[K
+[2.440s]       |                       [32m[Kcovariance[m[K
+[2.440s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:275:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcovariane[m[K’; did you mean ‘[01m[Kcovariance[m[K’?
+[2.440s]   275 |         pose_msg.pose.[01;31m[Kcovariane[m[K[21] = 0.1;
+[2.440s]       |                       [01;31m[K^~~~~~~~~[m[K
+[2.440s]       |                       [32m[Kcovariance[m[K
+[2.440s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:276:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcovariane[m[K’; did you mean ‘[01m[Kcovariance[m[K’?
+[2.440s]   276 |         pose_msg.pose.[01;31m[Kcovariane[m[K[28] = 0.1;
+[2.440s]       |                       [01;31m[K^~~~~~~~~[m[K
+[2.440s]       |                       [32m[Kcovariance[m[K
+[2.440s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:277:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcovariane[m[K’; did you mean ‘[01m[Kcovariance[m[K’?
+[2.440s]   277 |         pose_msg.pose.[01;31m[Kcovariane[m[K[35] = 0.1;
+[2.440s]       |                       [01;31m[K^~~~~~~~~[m[K
+[2.440s]       |                       [32m[Kcovariance[m[K
+[4.050s] gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+[4.050s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+[4.051s] gmake: *** [Makefile:146: all] Error 2
+[4.052s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12

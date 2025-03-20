@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[ 50%] Built target move_to_map_client
+[ 75%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places_msgs::action::MoveToMap> >)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:85:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_map[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_room[m[K’?
+   85 |             navigate_to_wormhole([01;31m[Kcurrent_map[m[K);
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+      |                                  [32m[Kcurrent_room[m[K
+gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

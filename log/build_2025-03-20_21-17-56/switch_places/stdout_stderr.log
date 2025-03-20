@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[ 50%] Built target move_to_map_client
+[ 75%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::load_map_callback(rclcpp::Client<nav2_msgs::srv::LoadMap>::SharedPtr)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:219:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Client<nav2_msgs::srv::LoadMap>[m[K’ has no member named ‘[01m[Ksuccess[m[K’
+  219 |             if (response->[01;31m[Ksuccess[m[K)
+      |                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::load_new_map(const string&)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:248:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdelete_client[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_client[m[K’?
+  248 |         auto future_result = [01;31m[Kdelete_client[m[K->async_send_request(request,
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+      |                              [32m[Kcreate_client[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::spawn_entity_callback(rclcpp::Client<gazebo_msgs::srv::SpawnEntity>::SharedPtr)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:300:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Client<gazebo_msgs::srv::SpawnEntity>[m[K’ has no member named ‘[01m[Ksuccess[m[K’
+  300 |             if (response->[01;31m[Ksuccess[m[K)
+      |                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::spawn_robot_at_position(float, float)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:346:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdelete_client[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_client[m[K’?
+  346 |         auto future_result = [01;31m[Kdelete_client[m[K->async_send_request(request,
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+      |                              [32m[Kcreate_client[m[K
+gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

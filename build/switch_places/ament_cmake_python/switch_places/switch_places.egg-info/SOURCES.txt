@@ -1,0 +1,6 @@
+setup.py
+switch_places/__init__.py
+switch_places.egg-info/PKG-INFO
+switch_places.egg-info/SOURCES.txt
+switch_places.egg-info/dependency_links.txt
+switch_places.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+setup.py
+switch_places_msgs/__init__.py
+switch_places_msgs.egg-info/PKG-INFO
+switch_places_msgs.egg-info/SOURCES.txt
+switch_places_msgs.egg-info/dependency_links.txt
+switch_places_msgs.egg-info/top_level.txt
+switch_places_msgs/action/__init__.py
+switch_places_msgs/action/_move_to_map.py

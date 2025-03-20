@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-692a77316751ea8bd3ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "switch_places",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_map_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_map_client-92d6f32a14d477855604.json",
+					"name" : "move_to_map_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_map_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_map_server-e05b64d781b59474b061.json",
+					"name" : "move_to_map_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_uninstall-9fe36e45dedd1ff2a4ab.json",
+					"name" : "switch_places_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d62f85a1551f2a8ef84d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/janhavi/MultiMapWormholes/build/switch_places",
+		"source" : "/home/janhavi/MultiMapWormholes/src/switch_places"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

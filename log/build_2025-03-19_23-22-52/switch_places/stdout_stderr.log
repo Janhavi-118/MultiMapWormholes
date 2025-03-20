@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target move_to_map_client[0m
+[35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/move_to_map_client.dir/src/move_to_map_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionClient::feedback_callback(rclcpp_action::ClientGoalHandle<switch_places_msgs::action::MoveToMap>::SharedPtr, std::shared_ptr<const switch_places_msgs::action::MoveToMap_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, [01;35m[Kconst std::shared_ptr<const MoveToMap::Feedback> feedback[m[K) {
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX executable move_to_map_client[0m
+[ 75%] Built target move_to_map_client
+[100%] [32m[1mLinking CXX executable move_to_map_server[0m
+[100%] Built target move_to_map_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_server
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_client
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/package_run_dependencies/switch_places
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/parent_prefix_path/switch_places
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.sh
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.dsv
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.sh
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.dsv
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.bash
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.sh
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.zsh
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.dsv
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.dsv
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/packages/switch_places
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig.cmake
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig-version.cmake
+-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.xml

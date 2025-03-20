@@ -1,0 +1,12 @@
+[0.010s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[0.062s] [ 50%] Built target move_to_map_client
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[2.578s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::publish_initial_pose(float, float)[m[K’:
+[2.578s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:255:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_pose_publisher_[m[K’ was not declared in this scope
+[2.578s]   255 |         [01;31m[Kinitial_pose_publisher_[m[K->publish(pose_msg);
+[2.578s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.287s] gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+[4.288s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+[4.288s] gmake: *** [Makefile:146: all] Error 2
+[4.290s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12

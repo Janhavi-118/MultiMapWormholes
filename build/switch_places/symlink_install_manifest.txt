@@ -1,0 +1,17 @@
+/home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_server
+/home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_client
+/home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/package_run_dependencies/switch_places
+/home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/parent_prefix_path/switch_places
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.sh
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.dsv
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.sh
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.dsv
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.bash
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.sh
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.zsh
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.dsv
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.dsv
+/home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/packages/switch_places
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig.cmake
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig-version.cmake
+/home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.xml

@@ -1,0 +1,6 @@
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_pose_publisher_[m[K’ does not name a type
+   51 |     [01;31m[Kinitial_pose_publisher_[m[K = this->create_publisher<geometry_msgs::msg::PoseStamped>("initialpose", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

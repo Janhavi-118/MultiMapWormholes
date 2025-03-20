@@ -1,0 +1,6 @@
+{
+  "package_name": "switch_places_msgs",
+  "non_idl_tuples": [
+    "/home/janhavi/MultiMapWormholes/src/switch_places_msgs:action/MoveToMap.action"
+  ]
+}

@@ -1,0 +1,29 @@
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In constructor ‘[01m[KMoveToMapActionServer::MoveToMapActionServer()[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_pose_publisher_[m[K’ was not declared in this scope
+   33 |         [01;31m[Kinitial_pose_publisher_[m[K = this->create_publisher<geometry_msgs::msg::PoseStamped>("initialpose", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::publish_initial_pose(float, float)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:253:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_pose_publisher_[m[K’ was not declared in this scope
+  253 |         [01;31m[Kinitial_pose_publisher_[m[K->publish(pose_msg);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kbool MoveToMapActionServer::spawn_entity_callback(rclcpp::Client<gazebo_msgs::srv::SpawnEntity>::SharedFuture)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:366:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseWithCovarianceStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+  366 |         geometry_msgs::msg::[01;31m[KPoseWithCovarianceStamped[m[K pose_msg;
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:369:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_msg[m[K’ was not declared in this scope
+  369 |         [01;31m[Kpose_msg[m[K.header.stamp = node->get_clock()->now();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:369:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  369 |         pose_msg.header.stamp = [01;31m[Knode[m[K->get_clock()->now();
+      |                                 [01;31m[K^~~~[m[K
+      |                                 [32m[KNode[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:373:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+  373 |         pose_msg.pose.pose.position.x = [01;31m[Kx[m[K;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:374:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  374 |         pose_msg.pose.pose.position.y = [01;31m[Ky[m[K;
+      |                                         [01;31m[K^[m[K
+      |                                         [32m[Kyn[m[K
+gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

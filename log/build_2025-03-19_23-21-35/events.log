@@ -1,0 +1,593 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (-) JobUnselected: {'identifier': 'switch_places_msgs'}
+[0.000574] (switch_places) JobQueued: {'identifier': 'switch_places', 'dependencies': OrderedDict()}
+[0.000690] (switch_places) JobStarted: {'identifier': 'switch_places'}
+[0.006066] (switch_places) JobProgress: {'identifier': 'switch_places', 'progress': 'cmake'}
+[0.006450] (switch_places) JobProgress: {'identifier': 'switch_places', 'progress': 'build'}
+[0.006998] (switch_places) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janhavi/MultiMapWormholes/build/switch_places', '--', '-j12', '-l12'], 'cwd': '/home/janhavi/MultiMapWormholes/build/switch_places', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('OLDPWD', '/home/janhavi/MultiMapWormholes/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '8555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2017,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2017'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe8a6e4a_fa4d_4845_b015_a6d118685872'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UY2G32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/MultiMapWormholes/build/switch_places'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/opt/ros/humble')]), 'shell': False}
+[0.050513] (switch_places) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o\x1b[0m\n'}
+[0.050696] (switch_places) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_to_map_client.dir/src/move_to_map_client.cpp.o\x1b[0m\n'}
+[0.099870] (-) TimerEvent: {}
+[0.200159] (-) TimerEvent: {}
+[0.300426] (-) TimerEvent: {}
+[0.400715] (-) TimerEvent: {}
+[0.501013] (-) TimerEvent: {}
+[0.601341] (-) TimerEvent: {}
+[0.701645] (-) TimerEvent: {}
+[0.801951] (-) TimerEvent: {}
+[0.902327] (-) TimerEvent: {}
+[1.002599] (-) TimerEvent: {}
+[1.102889] (-) TimerEvent: {}
+[1.203174] (-) TimerEvent: {}
+[1.303463] (-) TimerEvent: {}
+[1.403774] (-) TimerEvent: {}
+[1.501136] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:9:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.501344] (switch_places) StderrLine: {'line': b'    9 |     using MoveToMap = \x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap;\n'}
+[1.501419] (switch_places) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.501569] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:10:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMoveToMap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.501657] (switch_places) StderrLine: {'line': b'   10 |     using GoalHandleMoveToMap = rclcpp_action::ClientGoalHandle<\x1b[01;31m\x1b[KMoveToMap\x1b[m\x1b[K>;\n'}
+[1.501720] (switch_places) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.501778] (switch_places) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\n'}
+[1.501839] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp:7\x1b[m\x1b[K,\n'}
+[1.501960] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:5\x1b[m\x1b[K:\n'}
+[1.502021] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp:1113:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.502079] (switch_places) StderrLine: {'line': b' 1113 | typedef struct MoveToMap \x1b[01;36m\x1b[KMoveToMap\x1b[m\x1b[K;\n'}
+[1.502145] (switch_places) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.502201] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:10:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.502272] (switch_places) StderrLine: {'line': b'   10 |     using GoalHandleMoveToMap = rclcpp_action::ClientGoalHandle<MoveToMap\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.502331] (switch_places) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.502389] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:43:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMoveToMap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.502448] (switch_places) StderrLine: {'line': b'   43 |     rclcpp_action::Client<\x1b[01;31m\x1b[KMoveToMap\x1b[m\x1b[K>::SharedPtr client_;\n'}
+[1.502504] (switch_places) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.502560] (switch_places) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\n'}
+[1.502616] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp:7\x1b[m\x1b[K,\n'}
+[1.502673] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:5\x1b[m\x1b[K:\n'}
+[1.502730] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp:1113:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.502788] (switch_places) StderrLine: {'line': b' 1113 | typedef struct MoveToMap \x1b[01;36m\x1b[KMoveToMap\x1b[m\x1b[K;\n'}
+[1.502846] (switch_places) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.502936] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:43:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.502995] (switch_places) StderrLine: {'line': b'   43 |     rclcpp_action::Client<MoveToMap\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr client_;\n'}
+[1.503051] (switch_places) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.503108] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:43:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.503175] (switch_places) StderrLine: {'line': b'   43 |     rclcpp_action::Client<MoveToMap>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K client_;\n'}
+[1.503240] (switch_places) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.503299] (switch_places) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.503355] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:43:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.503416] (switch_places) StderrLine: {'line': b'   43 |     rclcpp_action::Client<MoveToMap>::SharedPtr \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K;\n'}
+[1.503477] (switch_places) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.503828] (-) TimerEvent: {}
+[1.507840] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.508001] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle) {\n'}
+[1.508067] (switch_places) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.508125] (switch_places) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.508181] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.508247] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle) {\n'}
+[1.508304] (switch_places) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.513045] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.513228] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle) {\n'}
+[1.513299] (switch_places) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.513359] (switch_places) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.513414] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.513471] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle) {\n'}
+[1.513526] (switch_places) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.518079] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.518250] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle) {\n'}
+[1.518333] (switch_places) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.518392] (switch_places) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.518448] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.518504] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle) {\n'}
+[1.518559] (switch_places) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.518620] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.518677] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ClientGoalHandle<switch_places::action::MoveToMap>> goal_handle) {\n'}
+[1.518734] (switch_places) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.522910] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.523286] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle) {\n'}
+[1.523413] (switch_places) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.523484] (switch_places) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.523543] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.523602] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K) {\n'}
+[1.523660] (switch_places) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.523718] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.523776] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.523833] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.523889] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(\x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap>> goal_handle) {\n'}
+[1.523952] (switch_places) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.524008] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template arguments before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.524066] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K) {\n'}
+[1.524125] (switch_places) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.524182] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.524251] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[1.524319] (switch_places) StderrLine: {'line': b'   45 |     void goal_response_callback(\x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap>> goal_handle) {\n'}
+[1.524376] (switch_places) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.524435] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGoalHandleMoveToMap\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.524493] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(\x1b[01;31m\x1b[KGoalHandleMoveToMap\x1b[m\x1b[K::SharedPtr, const std::shared_ptr<const MoveToMap::Feedback> feedback) {\n'}
+[1.524552] (switch_places) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.524608] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.524674] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap\x1b[01;31m\x1b[K::\x1b[m\x1b[KFeedback> feedback) {\n'}
+[1.524732] (switch_places) StderrLine: {'line': b'      |                                                                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.524789] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.524845] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap::Feedback\x1b[01;31m\x1b[K>\x1b[m\x1b[K feedback) {\n'}
+[1.524903] (switch_places) StderrLine: {'line': b'      |                                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.525067] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.525165] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap\x1b[01;31m\x1b[K::\x1b[m\x1b[KFeedback> feedback) {\n'}
+[1.525239] (switch_places) StderrLine: {'line': b'      |                                                                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.525305] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.525364] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap::Feedback\x1b[01;31m\x1b[K>\x1b[m\x1b[K feedback) {\n'}
+[1.525424] (switch_places) StderrLine: {'line': b'      |                                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.525481] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.525543] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap\x1b[01;31m\x1b[K::\x1b[m\x1b[KFeedback> feedback) {\n'}
+[1.525602] (switch_places) StderrLine: {'line': b'      |                                                                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.525661] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.525718] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap::Feedback\x1b[01;31m\x1b[K>\x1b[m\x1b[K feedback) {\n'}
+[1.525775] (switch_places) StderrLine: {'line': b'      |                                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.525835] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.525898] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<const MoveToMap::Feedback> feedback) {\n'}
+[1.525960] (switch_places) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.526024] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.526093] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap\x1b[01;31m\x1b[K::\x1b[m\x1b[KFeedback> feedback) {\n'}
+[1.526274] (switch_places) StderrLine: {'line': b'      |                                                                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.526472] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.526551] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K MoveToMap::Feedback> feedback) {\n'}
+[1.526618] (switch_places) StderrLine: {'line': b'      |                                                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.526680] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.526748] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[1.526820] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<const MoveToMap::Feedback> feedback) {\n'}
+[1.526889] (switch_places) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.526994] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGoalHandleMoveToMap\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.527128] (switch_places) StderrLine: {'line': b'   57 |     void result_callback(const \x1b[01;31m\x1b[KGoalHandleMoveToMap\x1b[m\x1b[K::WrappedResult &result) {\n'}
+[1.527191] (switch_places) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.527263] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.527321] (switch_places) StderrLine: {'line': b'   57 |     void result_callback(const GoalHandleMoveToMap::WrappedResult \x1b[01;31m\x1b[K&\x1b[m\x1b[Kresult) {\n'}
+[1.527378] (switch_places) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.527434] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.527494] (switch_places) StderrLine: {'line': b'   57 |     void result_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst GoalHandleMoveToMap::WrappedResult\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[Kresult) {\n'}
+[1.527553] (switch_places) StderrLine: {'line': b'      |                         \x1b[34m\x1b[K~\x1b[m\x1b[K                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.527610] (switch_places) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.527688] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.527744] (switch_places) StderrLine: {'line': b'   57 |     void result_callback(const GoalHandleMoveToMap::WrappedResult \x1b[01;31m\x1b[K&\x1b[m\x1b[Kresult) {\n'}
+[1.527799] (switch_places) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.527852] (switch_places) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.527907] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.527962] (switch_places) StderrLine: {'line': b'   57 |     void result_callback(const GoalHandleMoveToMap::WrappedResult &\x1b[01;31m\x1b[Kresult\x1b[m\x1b[K) {\n'}
+[1.528016] (switch_places) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.528071] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMoveToMapActionClient::MoveToMapActionClient()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.528128] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveToMapActionClient\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.528186] (switch_places) StderrLine: {'line': b'   13 |         this->\x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K = rclcpp_action::create_client<MoveToMap>(this, "move_to_map");\n'}
+[1.528290] (switch_places) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.528347] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMoveToMap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.528410] (switch_places) StderrLine: {'line': b'   13 |         this->client_ = rclcpp_action::create_client<\x1b[01;31m\x1b[KMoveToMap\x1b[m\x1b[K>(this, "move_to_map");\n'}
+[1.528466] (switch_places) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.528520] (switch_places) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\n'}
+[1.528574] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp:7\x1b[m\x1b[K,\n'}
+[1.528628] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:5\x1b[m\x1b[K:\n'}
+[1.528682] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp:1113:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.528738] (switch_places) StderrLine: {'line': b' 1113 | typedef struct MoveToMap \x1b[01;36m\x1b[KMoveToMap\x1b[m\x1b[K;\n'}
+[1.528797] (switch_places) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.528851] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_client<<expression error> >(MoveToMapActionClient*, const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.528906] (switch_places) StderrLine: {'line': b'   13 |         this->client_ = \x1b[01;31m\x1b[Krclcpp_action::create_client<MoveToMap>(this, "move_to_map")\x1b[m\x1b[K;\n'}
+[1.528964] (switch_places) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.529018] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38\x1b[m\x1b[K,\n'}
+[1.529076] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:4\x1b[m\x1b[K:\n'}
+[1.529130] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.529194] (switch_places) StderrLine: {'line': b'   44 | \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[1.529254] (switch_places) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.529310] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.529365] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.529419] (switch_places) StderrLine: {'line': b'   13 |         this->client_ = \x1b[01;31m\x1b[Krclcpp_action::create_client<MoveToMap>(this, "move_to_map")\x1b[m\x1b[K;\n'}
+[1.529473] (switch_places) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.529526] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38\x1b[m\x1b[K,\n'}
+[1.529580] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:4\x1b[m\x1b[K:\n'}
+[1.529640] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.529704] (switch_places) StderrLine: {'line': b'  105 | \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[1.529764] (switch_places) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.529822] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.529895] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.529978] (switch_places) StderrLine: {'line': b'   13 |         this->client_ = \x1b[01;31m\x1b[Krclcpp_action::create_client<MoveToMap>(this, "move_to_map")\x1b[m\x1b[K;\n'}
+[1.530040] (switch_places) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.530096] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:16:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveToMapActionClient\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.530155] (switch_places) StderrLine: {'line': b'   16 |         while (!this->\x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K->wait_for_action_server(std::chrono::seconds(5))) {\n'}
+[1.530213] (switch_places) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.530292] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveToMapActionClient::send_goal(const string&, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.530353] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:23:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMoveToMap\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.530419] (switch_places) StderrLine: {'line': b'   23 |         auto goal_msg = \x1b[01;31m\x1b[KMoveToMap\x1b[m\x1b[K::Goal();\n'}
+[1.530480] (switch_places) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.530540] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:32:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMoveToMap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.530606] (switch_places) StderrLine: {'line': b'   32 |         auto send_goal_options = rclcpp_action::Client<\x1b[01;31m\x1b[KMoveToMap\x1b[m\x1b[K>::SendGoalOptions();\n'}
+[1.530676] (switch_places) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.530765] (switch_places) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\n'}
+[1.530837] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp:7\x1b[m\x1b[K,\n'}
+[1.530908] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:5\x1b[m\x1b[K:\n'}
+[1.530975] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp:1113:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs::action::MoveToMap\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.531039] (switch_places) StderrLine: {'line': b' 1113 | typedef struct MoveToMap \x1b[01;36m\x1b[KMoveToMap\x1b[m\x1b[K;\n'}
+[1.531094] (switch_places) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.531155] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:32:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.531211] (switch_places) StderrLine: {'line': b'   32 |         auto send_goal_options = rclcpp_action::Client<MoveToMap\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SendGoalOptions();\n'}
+[1.531293] (switch_places) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.536334] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:39:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.536468] (switch_places) StderrLine: {'line': b'   39 |         auto future_goal_handle = \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K->async_send_goal(goal_msg, send_goal_options);\n'}
+[1.536529] (switch_places) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.540730] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveToMapActionClient::goal_response_callback(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.540834] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:46:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.540897] (switch_places) StderrLine: {'line': b'   46 |         if (!\x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K) {\n'}
+[1.540954] (switch_places) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.541428] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveToMapActionClient::feedback_callback(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.541531] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KSharedPtr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.541597] (switch_places) StderrLine: {'line': b'   53 |     void feedback_callback(\x1b[01;35m\x1b[KGoalHandleMoveToMap::SharedPtr\x1b[m\x1b[K, const std::shared_ptr<const MoveToMap::Feedback> feedback) {\n'}
+[1.541655] (switch_places) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.582146] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:43:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.582323] (switch_places) StderrLine: {'line': b'   43 |     rclcpp_action::Server<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>::SharedPtr action_server_;\n'}
+[1.582389] (switch_places) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.582448] (switch_places) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.582505] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:43:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.582573] (switch_places) StderrLine: {'line': b'   43 |     rclcpp_action::Server<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr action_server_;\n'}
+[1.582628] (switch_places) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.582683] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:43:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.582739] (switch_places) StderrLine: {'line': b'   43 |    rclcpp_action::Server<switch_places::action::MoveToMap>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K action_server_;\n'}
+[1.582795] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.582850] (switch_places) StderrLine: {'line': b'      |                                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.584705] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:43:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_action_server_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.584874] (switch_places) StderrLine: {'line': b'   43 | action::Server<switch_places::action::MoveToMap>::SharedPtr \x1b[01;31m\x1b[Kaction_server_\x1b[m\x1b[K;\n'}
+[1.584945] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.585003] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Krcl_action_server_t\x1b[m\x1b[K\n'}
+[1.585060] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.585120] (switch_places) StderrLine: {'line': b'   48 |         std::shared_ptr<const switch_places\x1b[01;31m\x1b[K::\x1b[m\x1b[Kaction::MoveToMap::Goal> goal)\n'}
+[1.585174] (switch_places) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.585239] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.585298] (switch_places) StderrLine: {'line': b'   48 |     std::shared_ptr<const switch_places::action::MoveToMap::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[1.585353] (switch_places) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.585407] (switch_places) StderrLine: {'line': b'\n'}
+[1.585460] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.585517] (switch_places) StderrLine: {'line': b'   48 |         std::shared_ptr<const switch_places\x1b[01;31m\x1b[K::\x1b[m\x1b[Kaction::MoveToMap::Goal> goal)\n'}
+[1.585571] (switch_places) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.585632] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.585690] (switch_places) StderrLine: {'line': b'   48 |     std::shared_ptr<const switch_places::action::MoveToMap::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[1.585744] (switch_places) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.585798] (switch_places) StderrLine: {'line': b'\n'}
+[1.585851] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.585906] (switch_places) StderrLine: {'line': b'   48 |         std::shared_ptr<const switch_places\x1b[01;31m\x1b[K::\x1b[m\x1b[Kaction::MoveToMap::Goal> goal)\n'}
+[1.585960] (switch_places) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.586013] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.586067] (switch_places) StderrLine: {'line': b'   48 |     std::shared_ptr<const switch_places::action::MoveToMap::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[1.586121] (switch_places) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.586174] (switch_places) StderrLine: {'line': b'\n'}
+[1.586232] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.586289] (switch_places) StderrLine: {'line': b'   48 |         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<const switch_places::action::MoveToMap::Goal> goal)\n'}
+[1.586343] (switch_places) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.586397] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.586458] (switch_places) StderrLine: {'line': b'   48 |         std::shared_ptr<const switch_places\x1b[01;31m\x1b[K::\x1b[m\x1b[Kaction::MoveToMap::Goal> goal)\n'}
+[1.586512] (switch_places) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.586566] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.586623] (switch_places) StderrLine: {'line': b'   48 |         std::shared_ptr<\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K switch_places::action::MoveToMap::Goal> goal)\n'}
+[1.586677] (switch_places) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.586731] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.586792] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[1.586851] (switch_places) StderrLine: {'line': b'   48 |         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<const switch_places::action::MoveToMap::Goal> goal)\n'}
+[1.586905] (switch_places) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.590898] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.591073] (switch_places) StderrLine: {'line': b'   57 | ancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.591139] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.591198] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.591268] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:135:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.591327] (switch_places) StderrLine: {'line': b'   57 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[1.591383] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.591438] (switch_places) StderrLine: {'line': b'\n'}
+[1.596489] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.596638] (switch_places) StderrLine: {'line': b'   57 | ancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.596701] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.596758] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.596814] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:135:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.596870] (switch_places) StderrLine: {'line': b'   57 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[1.596924] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.596978] (switch_places) StderrLine: {'line': b'\n'}
+[1.602073] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.602256] (switch_places) StderrLine: {'line': b'   57 | ancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.602331] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.602389] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.602445] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:135:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.602501] (switch_places) StderrLine: {'line': b'   57 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[1.602556] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.602611] (switch_places) StderrLine: {'line': b'\n'}
+[1.602666] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.602723] (switch_places) StderrLine: {'line': b'   57 | _action::CancelResponse handle_cancel(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)\n'}
+[1.602778] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.602835] (switch_places) StderrLine: {'line': b'\n'}
+[1.603924] (-) TimerEvent: {}
+[1.607590] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.607718] (switch_places) StderrLine: {'line': b'   57 | ancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.607784] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.607856] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.607920] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.607982] (switch_places) StderrLine: {'line': b'   57 | action::ServerGoalHandle<switch_places::action::MoveToMap>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[1.608039] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.608095] (switch_places) StderrLine: {'line': b'\n'}
+[1.608149] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.608205] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.608271] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.608330] (switch_places) StderrLine: {'line': b'   57 |     rclcpp_action::CancelResponse handle_cancel(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)\n'}
+[1.608391] (switch_places) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.608447] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template arguments before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.608508] (switch_places) StderrLine: {'line': b'   57 | action::ServerGoalHandle<switch_places::action::MoveToMap>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[1.608563] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.608617] (switch_places) StderrLine: {'line': b'\n'}
+[1.608670] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.608725] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[1.608780] (switch_places) StderrLine: {'line': b'   57 |     rclcpp_action::CancelResponse handle_cancel(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)\n'}
+[1.608833] (switch_places) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.613346] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.613500] (switch_places) StderrLine: {'line': b'   65 | epted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.613569] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.613630] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.613691] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:112:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.613752] (switch_places) StderrLine: {'line': b'   65 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[1.613812] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.613871] (switch_places) StderrLine: {'line': b'\n'}
+[1.618887] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.619058] (switch_places) StderrLine: {'line': b'   65 | epted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.619140] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.619204] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.619274] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:112:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.619336] (switch_places) StderrLine: {'line': b'   65 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[1.619395] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.619453] (switch_places) StderrLine: {'line': b'\n'}
+[1.624391] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.624593] (switch_places) StderrLine: {'line': b'   65 | epted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.624663] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.624725] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.624784] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:112:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.624841] (switch_places) StderrLine: {'line': b'   65 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[1.624898] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.624954] (switch_places) StderrLine: {'line': b'\n'}
+[1.625010] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.625072] (switch_places) StderrLine: {'line': b'   65 |     void handle_accepted(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)\n'}
+[1.625129] (switch_places) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.629716] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.629905] (switch_places) StderrLine: {'line': b'   65 | epted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.629973] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.630034] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.630091] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.630164] (switch_places) StderrLine: {'line': b'   65 | action::ServerGoalHandle<switch_places::action::MoveToMap>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[1.630232] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.630296] (switch_places) StderrLine: {'line': b'\n'}
+[1.630353] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.630411] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.630468] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.630524] (switch_places) StderrLine: {'line': b'   65 |     void handle_accepted(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)\n'}
+[1.630584] (switch_places) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.630643] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template arguments before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.630702] (switch_places) StderrLine: {'line': b'   65 | action::ServerGoalHandle<switch_places::action::MoveToMap>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[1.630760] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.630818] (switch_places) StderrLine: {'line': b'\n'}
+[1.630877] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.630938] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[1.630997] (switch_places) StderrLine: {'line': b'   65 |     void handle_accepted(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)\n'}
+[1.631058] (switch_places) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.635745] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.635874] (switch_places) StderrLine: {'line': b'   72 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.635941] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.636005] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.636067] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.636125] (switch_places) StderrLine: {'line': b'   72 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[1.636181] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.636247] (switch_places) StderrLine: {'line': b'\n'}
+[1.641276] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.641468] (switch_places) StderrLine: {'line': b'   72 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.641537] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.641598] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.641656] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.641717] (switch_places) StderrLine: {'line': b'   72 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[1.641775] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.641833] (switch_places) StderrLine: {'line': b'\n'}
+[1.647038] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.647188] (switch_places) StderrLine: {'line': b'   72 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.647265] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.647328] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.647388] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.647448] (switch_places) StderrLine: {'line': b'   72 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[1.647506] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.647565] (switch_places) StderrLine: {'line': b'\n'}
+[1.647625] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.647684] (switch_places) StderrLine: {'line': b'   72 |     void execute(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)\n'}
+[1.647756] (switch_places) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.652616] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.652783] (switch_places) StderrLine: {'line': b'   72 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>> goal_handle)\n'}
+[1.652850] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.652913] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kswitch_places_msgs\x1b[m\x1b[K\n'}
+[1.652971] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.653029] (switch_places) StderrLine: {'line': b'   72 | action::ServerGoalHandle<switch_places::action::MoveToMap>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[1.653087] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.653144] (switch_places) StderrLine: {'line': b'\n'}
+[1.653202] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.653271] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.653341] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[1.653398] (switch_places) StderrLine: {'line': b'   72 |     void execute(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)\n'}
+[1.653459] (switch_places) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.653515] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template arguments before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.653576] (switch_places) StderrLine: {'line': b'   72 | action::ServerGoalHandle<switch_places::action::MoveToMap>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[1.653631] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.653686] (switch_places) StderrLine: {'line': b'\n'}
+[1.653741] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.653796] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[1.653852] (switch_places) StderrLine: {'line': b'   72 |     void execute(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)\n'}
+[1.653911] (switch_places) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.658924] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMoveToMapActionServer::MoveToMapActionServer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.659099] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_action_server_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.659174] (switch_places) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[Kaction_server_\x1b[m\x1b[K = rclcpp_action::create_server<switch_places::action::MoveToMap>(\n'}
+[1.659253] (switch_places) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.659321] (switch_places) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krcl_action_server_t\x1b[m\x1b[K\n'}
+[1.664550] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_map\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.664716] (switch_places) StderrLine: {'line': b'   21 |         action_server_ = rclcpp_action::create_server<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap>(\n'}
+[1.664785] (switch_places) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.664847] (switch_places) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Kswitch_map\x1b[m\x1b[K\n'}
+[1.664907] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.664971] (switch_places) StderrLine: {'line': b'   21 |         action_server_ = rclcpp_action::\x1b[01;31m\x1b[Kcreate_server<switch_places::action::MoveToMap>\x1b[m\x1b[K(\n'}
+[1.665031] (switch_places) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.671738] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_server<<expression error> >(MoveToMapActionServer*, const char [12], std::_Bind_helper<false, rclcpp_action::GoalResponse (MoveToMapActionServer::*)(...), MoveToMapActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (MoveToMapActionServer::*)(...), MoveToMapActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (MoveToMapActionServer::*)(...), MoveToMapActionServer*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.671910] (switch_places) StderrLine: {'line': b'   21 | rver_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<switch_places::action::MoveToMap>(\x1b[m\x1b[K\n'}
+[1.671978] (switch_places) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.672047] (switch_places) StderrLine: {'line': b'\n'}
+[1.672106] (switch_places) StderrLine: {'line': b'   22 | \n'}
+[1.672163] (switch_places) StderrLine: {'line': b'      |                                                                        \n'}
+[1.672248] (switch_places) StderrLine: {'line': b'\n'}
+[1.672310] (switch_places) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K_to_map",\x1b[m\x1b[K\n'}
+[1.672369] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~\x1b[m\x1b[K                                                              \n'}
+[1.672426] (switch_places) StderrLine: {'line': b'\n'}
+[1.672482] (switch_places) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[Kbind(&MoveToMapActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),\x1b[m\x1b[K\n'}
+[1.672547] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.672605] (switch_places) StderrLine: {'line': b'\n'}
+[1.672668] (switch_places) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[Kbind(&MoveToMapActionServer::handle_cancel, this, std::placeholders::_1),\x1b[m\x1b[K\n'}
+[1.672730] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.672786] (switch_places) StderrLine: {'line': b'\n'}
+[1.672843] (switch_places) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[Kbind(&MoveToMapActionServer::handle_accepted, this, std::placeholders::_1)\x1b[m\x1b[K\n'}
+[1.672901] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.672959] (switch_places) StderrLine: {'line': b'\n'}
+[1.673015] (switch_places) StderrLine: {'line': b'   27 | \n'}
+[1.673071] (switch_places) StderrLine: {'line': b'      |                                                                        \n'}
+[1.673128] (switch_places) StderrLine: {'line': b'\n'}
+[1.673182] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[1.673243] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:3\x1b[m\x1b[K:\n'}
+[1.673302] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.673363] (switch_places) StderrLine: {'line': b'   58 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[1.673418] (switch_places) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.673472] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.673529] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.673585] (switch_places) StderrLine: {'line': b'   21 | rver_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<switch_places::action::MoveToMap>(\x1b[m\x1b[K\n'}
+[1.673640] (switch_places) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.673701] (switch_places) StderrLine: {'line': b'\n'}
+[1.673756] (switch_places) StderrLine: {'line': b'   22 | \n'}
+[1.673811] (switch_places) StderrLine: {'line': b'      |                                                                        \n'}
+[1.673865] (switch_places) StderrLine: {'line': b'\n'}
+[1.673920] (switch_places) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K_to_map",\x1b[m\x1b[K\n'}
+[1.673974] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~\x1b[m\x1b[K                                                              \n'}
+[1.674029] (switch_places) StderrLine: {'line': b'\n'}
+[1.674084] (switch_places) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[Kbind(&MoveToMapActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),\x1b[m\x1b[K\n'}
+[1.674140] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.674198] (switch_places) StderrLine: {'line': b'\n'}
+[1.674262] (switch_places) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[Kbind(&MoveToMapActionServer::handle_cancel, this, std::placeholders::_1),\x1b[m\x1b[K\n'}
+[1.674321] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.674378] (switch_places) StderrLine: {'line': b'\n'}
+[1.674435] (switch_places) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[Kbind(&MoveToMapActionServer::handle_accepted, this, std::placeholders::_1)\x1b[m\x1b[K\n'}
+[1.674492] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.674549] (switch_places) StderrLine: {'line': b'\n'}
+[1.674605] (switch_places) StderrLine: {'line': b'   27 | \n'}
+[1.674661] (switch_places) StderrLine: {'line': b'      |                                                                        \n'}
+[1.674717] (switch_places) StderrLine: {'line': b'\n'}
+[1.674773] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[1.674830] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:3\x1b[m\x1b[K:\n'}
+[1.674886] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.674953] (switch_places) StderrLine: {'line': b'  132 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[1.675009] (switch_places) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.675065] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.675126] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.675188] (switch_places) StderrLine: {'line': b'   21 | rver_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<switch_places::action::MoveToMap>(\x1b[m\x1b[K\n'}
+[1.675251] (switch_places) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.675320] (switch_places) StderrLine: {'line': b'\n'}
+[1.675378] (switch_places) StderrLine: {'line': b'   22 | \n'}
+[1.675434] (switch_places) StderrLine: {'line': b'      |                                                                        \n'}
+[1.675491] (switch_places) StderrLine: {'line': b'\n'}
+[1.675548] (switch_places) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K_to_map",\x1b[m\x1b[K\n'}
+[1.675605] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~\x1b[m\x1b[K                                                              \n'}
+[1.675661] (switch_places) StderrLine: {'line': b'\n'}
+[1.675717] (switch_places) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[Kbind(&MoveToMapActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),\x1b[m\x1b[K\n'}
+[1.675773] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.675832] (switch_places) StderrLine: {'line': b'\n'}
+[1.675888] (switch_places) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[Kbind(&MoveToMapActionServer::handle_cancel, this, std::placeholders::_1),\x1b[m\x1b[K\n'}
+[1.675944] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.676000] (switch_places) StderrLine: {'line': b'\n'}
+[1.676056] (switch_places) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[Kbind(&MoveToMapActionServer::handle_accepted, this, std::placeholders::_1)\x1b[m\x1b[K\n'}
+[1.676112] (switch_places) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.676169] (switch_places) StderrLine: {'line': b'\n'}
+[1.676324] (switch_places) StderrLine: {'line': b'   27 | \n'}
+[1.676417] (switch_places) StderrLine: {'line': b'      |                                                                        \n'}
+[1.676482] (switch_places) StderrLine: {'line': b'\n'}
+[1.676543] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse MoveToMapActionServer::handle_goal(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.676604] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:51:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.676664] (switch_places) StderrLine: {'line': b'   51 |         current_room = \x1b[01;31m\x1b[Kgoal\x1b[m\x1b[K->map_name;\n'}
+[1.676722] (switch_places) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.681985] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse MoveToMapActionServer::handle_cancel(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.682140] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:59:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.682220] (switch_places) StderrLine: {'line': b'   59 |         (void)\x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K;\n'}
+[1.682292] (switch_places) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.687530] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveToMapActionServer::handle_accepted(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.687644] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:67:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.687735] (switch_places) StderrLine: {'line': b'   67 |         (void)\x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K;\n'}
+[1.687804] (switch_places) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.687870] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:68:105:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.688001] (switch_places) StderrLine: {'line': b'   68 | onServer::execute, this, std::placeholders::_1), goal_handle\x1b[01;31m\x1b[K}\x1b[m\x1b[K.detach();\n'}
+[1.688065] (switch_places) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.688129] (switch_places) StderrLine: {'line': b'\n'}
+[1.688191] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:48\x1b[m\x1b[K,\n'}
+[1.688265] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.688330] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.688393] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:1\x1b[m\x1b[K:\n'}
+[1.688462] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.688528] (switch_places) StderrLine: {'line': b'  127 |       \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K(_Callable&& __f, _Args&&... __args)\n'}
+[1.688592] (switch_places) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.688655] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.688718] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread(std::thread&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.688789] (switch_places) StderrLine: {'line': b'  157 |     \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K(thread&& __t) noexcept\n'}
+[1.688852] (switch_places) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.688915] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[1.688989] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:121:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.689052] (switch_places) StderrLine: {'line': b'  121 |     \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K() noexcept = default;\n'}
+[1.689113] (switch_places) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.689173] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:121:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[1.693040] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveToMapActionServer::execute(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.693186] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:74:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.693282] (switch_places) StderrLine: {'line': b'   74 |         auto goal = \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K->get_goal();\n'}
+[1.693356] (switch_places) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.698853] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:75:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kswitch_places\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kswitch_map\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.699087] (switch_places) StderrLine: {'line': b'   75 |         auto feedback = std::make_shared<\x1b[01;31m\x1b[Kswitch_places\x1b[m\x1b[K::action::MoveToMap::Feedback>();\n'}
+[1.699166] (switch_places) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.699244] (switch_places) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Kswitch_map\x1b[m\x1b[K\n'}
+[1.699316] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:75:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.699384] (switch_places) StderrLine: {'line': b'   75 |         auto feedback = std::\x1b[01;31m\x1b[Kmake_shared<switch_places::action::MoveToMap::Feedback>\x1b[m\x1b[K();\n'}
+[1.699449] (switch_places) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.699513] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:75:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.699580] (switch_places) StderrLine: {'line': b'   75 | dback = \x1b[01;31m\x1b[Kstd::make_shared<switch_places::action::MoveToMap::Feedback>()\x1b[m\x1b[K;\n'}
+[1.699657] (switch_places) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.699724] (switch_places) StderrLine: {'line': b'\n'}
+[1.699789] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.699855] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.699919] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:1\x1b[m\x1b[K:\n'}
+[1.699984] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.700051] (switch_places) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.700116] (switch_places) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.700180] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.700252] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:75:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.700337] (switch_places) StderrLine: {'line': b'   75 | dback = \x1b[01;31m\x1b[Kstd::make_shared<switch_places::action::MoveToMap::Feedback>()\x1b[m\x1b[K;\n'}
+[1.700400] (switch_places) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.700463] (switch_places) StderrLine: {'line': b'\n'}
+[1.700525] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:76:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.700587] (switch_places) StderrLine: {'line': b'   76 |         auto result = std::\x1b[01;31m\x1b[Kmake_shared<switch_places::action::MoveToMap::Result>\x1b[m\x1b[K();\n'}
+[1.700650] (switch_places) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.700714] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:76:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<switch_places>()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.700778] (switch_places) StderrLine: {'line': b'   76 |  result = \x1b[01;31m\x1b[Kstd::make_shared<switch_places::action::MoveToMap::Result>()\x1b[m\x1b[K;\n'}
+[1.700847] (switch_places) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.700910] (switch_places) StderrLine: {'line': b'\n'}
+[1.700971] (switch_places) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.701038] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.701101] (switch_places) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:1\x1b[m\x1b[K:\n'}
+[1.701163] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.701230] (switch_places) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.701298] (switch_places) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.701361] (switch_places) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.704005] (-) TimerEvent: {}
+[1.804341] (-) TimerEvent: {}
+[1.828817] (switch_places) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_to_map_client.dir/build.make:76: CMakeFiles/move_to_map_client.dir/src/move_to_map_client.cpp.o] Error 1\n'}
+[1.829018] (switch_places) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/move_to_map_client.dir/all] Error 2\n'}
+[1.829086] (switch_places) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.904441] (-) TimerEvent: {}
+[2.004835] (-) TimerEvent: {}
+[2.105236] (-) TimerEvent: {}
+[2.205537] (-) TimerEvent: {}
+[2.305807] (-) TimerEvent: {}
+[2.406135] (-) TimerEvent: {}
+[2.506562] (-) TimerEvent: {}
+[2.606853] (-) TimerEvent: {}
+[2.707160] (-) TimerEvent: {}
+[2.713420] (switch_places) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1\n'}
+[2.713702] (switch_places) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2\n'}
+[2.713786] (switch_places) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.715574] (switch_places) CommandEnded: {'returncode': 2}
+[2.720062] (switch_places) JobEnded: {'identifier': 'switch_places', 'rc': 2}
+[2.730678] (-) EventReactorShutdown: {}

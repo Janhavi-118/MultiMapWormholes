@@ -1,0 +1,11 @@
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/uninstall.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/switch_places_uninstall.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/move_to_map_server.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/move_to_map_client.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/test.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/edit_cache.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/rebuild_cache.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/list_install_components.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/install.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/install/local.dir
+/home/janhavi/MultiMapWormholes/build/switch_places/CMakeFiles/install/strip.dir
