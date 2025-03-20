@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-743c0495df15e5d2a388.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "switch_places_msgs__py",
+					"jsonFile" : "directory-switch_places_msgs__py-619f1154c7087ed7cd57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/janhavi/MultiMapWormholes/build/switch_places_msgs/switch_places_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "switch_places_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_switch_places_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_switch_places_msgs_egg-d96957c729ed78806474.json",
+					"name" : "ament_cmake_python_build_switch_places_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_switch_places_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_switch_places_msgs-a85f771a866cb2271d30.json",
+					"name" : "ament_cmake_python_copy_switch_places_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs-d533a69dbe025a5614d4.json",
+					"name" : "switch_places_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__cpp-e8b41abb4e4f05d71607.json",
+					"name" : "switch_places_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "switch_places_msgs__py::@481ad5279955f89c484a",
+					"jsonFile" : "target-switch_places_msgs__py-6d6f231f4ee64a32a8ab.json",
+					"name" : "switch_places_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_generator_c-90a5075056a77582c292.json",
+					"name" : "switch_places_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_generator_py-e354324df979dc37f05d.json",
+					"name" : "switch_places_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_typesupport_c-8ba9b6e1bf2d72e62fcc.json",
+					"name" : "switch_places_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_typesupport_c__pyext-05d3851010d15eb2351d.json",
+					"name" : "switch_places_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_typesupport_cpp-96081f1f400e19884b4b.json",
+					"name" : "switch_places_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_typesupport_fastrtps_c-c23e9c2a330c6db53f83.json",
+					"name" : "switch_places_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_typesupport_fastrtps_c__pyext-5910fb541d37456b7a7f.json",
+					"name" : "switch_places_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_typesupport_fastrtps_cpp-44e14cd5b16685013306.json",
+					"name" : "switch_places_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_typesupport_introspection_c-2d7f43e439b4b9444347.json",
+					"name" : "switch_places_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_typesupport_introspection_c__pyext-e587ee601e5662168c41.json",
+					"name" : "switch_places_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs__rosidl_typesupport_introspection_cpp-2c6f359c028e8f74e725.json",
+					"name" : "switch_places_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch_places_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch_places_msgs_uninstall-f95183c2df4276685b16.json",
+					"name" : "switch_places_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0d982f4b45620b4b76d8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/janhavi/MultiMapWormholes/build/switch_places_msgs",
+		"source" : "/home/janhavi/MultiMapWormholes/src/switch_places_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

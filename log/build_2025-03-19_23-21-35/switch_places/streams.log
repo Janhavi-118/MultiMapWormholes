@@ -1,0 +1,558 @@
+[0.008s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_map_client.dir/src/move_to_map_client.cpp.o[0m
+[1.501s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:9:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ does not name a type
+[1.501s]     9 |     using MoveToMap = [01;31m[Kswitch_places[m[K::action::MoveToMap;
+[1.501s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.501s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:10:65:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToMap[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs::action::MoveToMap[m[K’?
+[1.501s]    10 |     using GoalHandleMoveToMap = rclcpp_action::ClientGoalHandle<[01;31m[KMoveToMap[m[K>;
+[1.501s]       |                                                                 [01;31m[K^~~~~~~~~[m[K
+[1.501s]       |                                                                 [32m[Kswitch_places_msgs::action::MoveToMap[m[K
+[1.501s] In file included from [01m[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp:7[m[K,
+[1.501s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:5[m[K:
+[1.501s] [01m[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp:1113:26:[m[K [01;36m[Knote: [m[K‘[01m[Kswitch_places_msgs::action::MoveToMap[m[K’ declared here
+[1.501s]  1113 | typedef struct MoveToMap [01;36m[KMoveToMap[m[K;
+[1.501s]       |                          [01;36m[K^~~~~~~~~[m[K
+[1.502s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:10:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.502s]    10 |     using GoalHandleMoveToMap = rclcpp_action::ClientGoalHandle<MoveToMap[01;31m[K>[m[K;
+[1.502s]       |                                                                          [01;31m[K^[m[K
+[1.502s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:43:27:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToMap[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs::action::MoveToMap[m[K’?
+[1.502s]    43 |     rclcpp_action::Client<[01;31m[KMoveToMap[m[K>::SharedPtr client_;
+[1.502s]       |                           [01;31m[K^~~~~~~~~[m[K
+[1.502s]       |                           [32m[Kswitch_places_msgs::action::MoveToMap[m[K
+[1.502s] In file included from [01m[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp:7[m[K,
+[1.502s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:5[m[K:
+[1.502s] [01m[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp:1113:26:[m[K [01;36m[Knote: [m[K‘[01m[Kswitch_places_msgs::action::MoveToMap[m[K’ declared here
+[1.502s]  1113 | typedef struct MoveToMap [01;36m[KMoveToMap[m[K;
+[1.502s]       |                          [01;36m[K^~~~~~~~~[m[K
+[1.502s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:43:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.502s]    43 |     rclcpp_action::Client<MoveToMap[01;31m[K>[m[K::SharedPtr client_;
+[1.502s]       |                                    [01;31m[K^[m[K
+[1.502s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:43:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.502s]    43 |     rclcpp_action::Client<MoveToMap>::[01;31m[KSharedPtr[m[K client_;
+[1.503s]       |                                       [01;31m[K^~~~~~~~~[m[K
+[1.503s]       |                                                [32m[K;[m[K
+[1.503s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:43:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+[1.503s]    43 |     rclcpp_action::Client<MoveToMap>::SharedPtr [01;31m[Kclient_[m[K;
+[1.503s]       |                                                 [01;31m[K^~~~~~~[m[K
+[1.507s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.507s]    45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle) {
+[1.507s]       |                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.507s]       |                                                                                 [32m[Kswitch_places_msgs[m[K
+[1.507s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:113:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.508s]    45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle) {
+[1.508s]       |                                                                                                                 [01;31m[K^~[m[K
+[1.512s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.513s]    45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle) {
+[1.513s]       |                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.513s]       |                                                                                 [32m[Kswitch_places_msgs[m[K
+[1.513s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:113:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.513s]    45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle) {
+[1.513s]       |                                                                                                                 [01;31m[K^~[m[K
+[1.517s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.518s]    45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle) {
+[1.518s]       |                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.518s]       |                                                                                 [32m[Kswitch_places_msgs[m[K
+[1.518s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:113:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.518s]    45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle) {
+[1.518s]       |                                                                                                                 [01;31m[K^~[m[K
+[1.518s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:49:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.518s]    45 |     void goal_response_callback(std::shared_ptr<[01;31m[Krclcpp_action[m[K::ClientGoalHandle<switch_places::action::MoveToMap>> goal_handle) {
+[1.518s]       |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.522s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.523s]    45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle) {
+[1.523s]       |                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.523s]       |                                                                                 [32m[Kswitch_places_msgs[m[K
+[1.523s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.523s]    45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap>> [01;31m[Kgoal_handle[m[K) {
+[1.523s]       |                                                                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[1.523s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.523s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.523s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.523s]    45 |     void goal_response_callback([01;31m[Kstd[m[K::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap>> goal_handle) {
+[1.523s]       |                                 [01;31m[K^~~[m[K
+[1.523s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[Kgoal_handle[m[K’
+[1.523s]    45 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap>> [01;31m[Kgoal_handle[m[K) {
+[1.523s]       |                                                                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[1.523s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:116:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kgoal_handle[m[K’
+[1.524s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:45:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[1.524s]    45 |     void goal_response_callback([01;31m[Kstd[m[K::shared_ptr<rclcpp_action::ClientGoalHandle<switch_places::action::MoveToMap>> goal_handle) {
+[1.524s]       |                                 [01;31m[K^~~[m[K
+[1.524s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:28:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleMoveToMap[m[K’ has not been declared
+[1.524s]    53 |     void feedback_callback([01;31m[KGoalHandleMoveToMap[m[K::SharedPtr, const std::shared_ptr<const MoveToMap::Feedback> feedback) {
+[1.524s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.524s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:97:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.524s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap[01;31m[K::[m[KFeedback> feedback) {
+[1.524s]       |                                                                                                 [01;31m[K^~[m[K
+[1.524s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.524s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap::Feedback[01;31m[K>[m[K feedback) {
+[1.524s]       |                                                                                                           [01;31m[K^[m[K
+[1.524s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:97:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.524s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap[01;31m[K::[m[KFeedback> feedback) {
+[1.525s]       |                                                                                                 [01;31m[K^~[m[K
+[1.525s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.525s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap::Feedback[01;31m[K>[m[K feedback) {
+[1.525s]       |                                                                                                           [01;31m[K^[m[K
+[1.525s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:97:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.525s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap[01;31m[K::[m[KFeedback> feedback) {
+[1.525s]       |                                                                                                 [01;31m[K^~[m[K
+[1.525s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.525s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap::Feedback[01;31m[K>[m[K feedback) {
+[1.525s]       |                                                                                                           [01;31m[K^[m[K
+[1.525s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:66:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.525s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const [01;31m[Kstd[m[K::shared_ptr<const MoveToMap::Feedback> feedback) {
+[1.525s]       |                                                                  [01;31m[K^~~[m[K
+[1.525s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:97:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.525s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<const MoveToMap[01;31m[K::[m[KFeedback> feedback) {
+[1.526s]       |                                                                                                 [01;31m[K^~[m[K
+[1.526s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:82:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[1.526s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, const std::shared_ptr<[01;31m[Kconst[m[K MoveToMap::Feedback> feedback) {
+[1.526s]       |                                                                                  [01;31m[K^~~~~[m[K
+[1.526s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:82:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[1.526s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:60:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[1.526s]    53 |     void feedback_callback(GoalHandleMoveToMap::SharedPtr, [01;31m[Kconst[m[K std::shared_ptr<const MoveToMap::Feedback> feedback) {
+[1.526s]       |                                                            [01;31m[K^~~~~[m[K
+[1.526s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:32:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleMoveToMap[m[K’ does not name a type
+[1.526s]    57 |     void result_callback(const [01;31m[KGoalHandleMoveToMap[m[K::WrappedResult &result) {
+[1.526s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.527s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:67:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[1.527s]    57 |     void result_callback(const GoalHandleMoveToMap::WrappedResult [01;31m[K&[m[Kresult) {
+[1.527s]       |                                                                   [01;31m[K^[m[K
+[1.527s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[1.527s]    57 |     void result_callback[34m[K([m[Kconst GoalHandleMoveToMap::WrappedResult[01;31m[K [m[K[32m[K&[m[Kresult) {
+[1.527s]       |                         [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~[m[K
+[1.527s]       |                                                                  [32m[K)[m[K
+[1.527s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.527s]    57 |     void result_callback(const GoalHandleMoveToMap::WrappedResult [01;31m[K&[m[Kresult) {
+[1.527s]       |                                                                   [01;31m[K^[m[K
+[1.527s]       |                                                                    [32m[K;[m[K
+[1.527s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:57:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ does not name a type
+[1.527s]    57 |     void result_callback(const GoalHandleMoveToMap::WrappedResult &[01;31m[Kresult[m[K) {
+[1.527s]       |                                                                    [01;31m[K^~~~~~[m[K
+[1.527s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:[m[K In constructor ‘[01m[KMoveToMapActionClient::MoveToMapActionClient()[m[K’:
+[1.527s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MoveToMapActionClient[m[K’ has no member named ‘[01m[Kclient_[m[K’
+[1.528s]    13 |         this->[01;31m[Kclient_[m[K = rclcpp_action::create_client<MoveToMap>(this, "move_to_map");
+[1.528s]       |               [01;31m[K^~~~~~~[m[K
+[1.528s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:54:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToMap[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs::action::MoveToMap[m[K’?
+[1.528s]    13 |         this->client_ = rclcpp_action::create_client<[01;31m[KMoveToMap[m[K>(this, "move_to_map");
+[1.528s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[1.528s]       |                                                      [32m[Kswitch_places_msgs::action::MoveToMap[m[K
+[1.528s] In file included from [01m[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp:7[m[K,
+[1.528s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:5[m[K:
+[1.528s] [01m[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp:1113:26:[m[K [01;36m[Knote: [m[K‘[01m[Kswitch_places_msgs::action::MoveToMap[m[K’ declared here
+[1.528s]  1113 | typedef struct MoveToMap [01;36m[KMoveToMap[m[K;
+[1.528s]       |                          [01;36m[K^~~~~~~~~[m[K
+[1.528s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_client<<expression error> >(MoveToMapActionClient*, const char [12])[m[K’
+[1.528s]    13 |         this->client_ = [01;31m[Krclcpp_action::create_client<MoveToMap>(this, "move_to_map")[m[K;
+[1.528s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.528s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38[m[K,
+[1.528s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:4[m[K:
+[1.528s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)[m[K’
+[1.528s]    44 | [01;36m[Kcreate_client[m[K(
+[1.529s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[1.529s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.529s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.529s]    13 |         this->client_ = [01;31m[Krclcpp_action::create_client<MoveToMap>(this, "move_to_map")[m[K;
+[1.529s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.529s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38[m[K,
+[1.529s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:4[m[K:
+[1.529s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)[m[K’
+[1.529s]   105 | [01;36m[Kcreate_client[m[K(
+[1.529s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[1.529s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.529s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.529s]    13 |         this->client_ = [01;31m[Krclcpp_action::create_client<MoveToMap>(this, "move_to_map")[m[K;
+[1.529s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.529s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:16:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MoveToMapActionClient[m[K’ has no member named ‘[01m[Kclient_[m[K’
+[1.529s]    16 |         while (!this->[01;31m[Kclient_[m[K->wait_for_action_server(std::chrono::seconds(5))) {
+[1.530s]       |                       [01;31m[K^~~~~~~[m[K
+[1.530s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionClient::send_goal(const string&, double, double)[m[K’:
+[1.530s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:23:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToMap[m[K’ has not been declared
+[1.530s]    23 |         auto goal_msg = [01;31m[KMoveToMap[m[K::Goal();
+[1.530s]       |                         [01;31m[K^~~~~~~~~[m[K
+[1.530s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:32:56:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToMap[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs::action::MoveToMap[m[K’?
+[1.530s]    32 |         auto send_goal_options = rclcpp_action::Client<[01;31m[KMoveToMap[m[K>::SendGoalOptions();
+[1.530s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[1.530s]       |                                                        [32m[Kswitch_places_msgs::action::MoveToMap[m[K
+[1.530s] In file included from [01m[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp:7[m[K,
+[1.530s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:5[m[K:
+[1.530s] [01m[K/home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp:1113:26:[m[K [01;36m[Knote: [m[K‘[01m[Kswitch_places_msgs::action::MoveToMap[m[K’ declared here
+[1.530s]  1113 | typedef struct MoveToMap [01;36m[KMoveToMap[m[K;
+[1.530s]       |                          [01;36m[K^~~~~~~~~[m[K
+[1.530s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:32:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.531s]    32 |         auto send_goal_options = rclcpp_action::Client<MoveToMap[01;31m[K>[m[K::SendGoalOptions();
+[1.531s]       |                                                                 [01;31m[K^[m[K
+[1.536s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:39:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[1.536s]    39 |         auto future_goal_handle = [01;31m[Kclient_[m[K->async_send_goal(goal_msg, send_goal_options);
+[1.536s]       |                                   [01;31m[K^~~~~~~[m[K
+[1.540s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionClient::goal_response_callback(...)[m[K’:
+[1.540s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:46:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[1.540s]    46 |         if (![01;31m[Kgoal_handle[m[K) {
+[1.540s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[1.541s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionClient::feedback_callback(...)[m[K’:
+[1.541s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_client.cpp:53:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedPtr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.541s]    53 |     void feedback_callback([01;35m[KGoalHandleMoveToMap::SharedPtr[m[K, const std::shared_ptr<const MoveToMap::Feedback> feedback) {
+[1.541s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[1.582s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:43:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.582s]    43 |     rclcpp_action::Server<[01;31m[Kswitch_places[m[K::action::MoveToMap>::SharedPtr action_server_;
+[1.582s]       |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[1.582s]       |                           [32m[Kswitch_places_msgs[m[K
+[1.582s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:43:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.582s]    43 |     rclcpp_action::Server<switch_places::action::MoveToMap[01;31m[K>[m[K::SharedPtr action_server_;
+[1.582s]       |                                                           [01;31m[K^[m[K
+[1.582s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:43:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.582s]    43 |    rclcpp_action::Server<switch_places::action::MoveToMap>::[01;31m[KSharedPtr[m[K action_server_;
+[1.582s]       |                                                             [01;31m[K^~~~~~~~~[m[K
+[1.582s]       |                                                                      [32m[K;[m[K
+[1.584s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:43:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[1.584s]    43 | action::Server<switch_places::action::MoveToMap>::SharedPtr [01;31m[Kaction_server_[m[K;
+[1.584s]       |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.584s]       |                                                             [32m[Krcl_action_server_t[m[K
+[1.584s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:44:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.584s]    48 |         std::shared_ptr<const switch_places[01;31m[K::[m[Kaction::MoveToMap::Goal> goal)
+[1.584s]       |                                            [01;31m[K^~[m[K
+[1.585s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.585s]    48 |     std::shared_ptr<const switch_places::action::MoveToMap::Goal[01;31m[K>[m[K goal)
+[1.585s]       |                                                                 [01;31m[K^[m[K
+[1.585s] 
+[1.585s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:44:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.585s]    48 |         std::shared_ptr<const switch_places[01;31m[K::[m[Kaction::MoveToMap::Goal> goal)
+[1.585s]       |                                            [01;31m[K^~[m[K
+[1.585s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.585s]    48 |     std::shared_ptr<const switch_places::action::MoveToMap::Goal[01;31m[K>[m[K goal)
+[1.585s]       |                                                                 [01;31m[K^[m[K
+[1.585s] 
+[1.585s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:44:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.585s]    48 |         std::shared_ptr<const switch_places[01;31m[K::[m[Kaction::MoveToMap::Goal> goal)
+[1.585s]       |                                            [01;31m[K^~[m[K
+[1.585s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.585s]    48 |     std::shared_ptr<const switch_places::action::MoveToMap::Goal[01;31m[K>[m[K goal)
+[1.585s]       |                                                                 [01;31m[K^[m[K
+[1.585s] 
+[1.586s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.586s]    48 |         [01;31m[Kstd[m[K::shared_ptr<const switch_places::action::MoveToMap::Goal> goal)
+[1.586s]       |         [01;31m[K^~~[m[K
+[1.586s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:44:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.586s]    48 |         std::shared_ptr<const switch_places[01;31m[K::[m[Kaction::MoveToMap::Goal> goal)
+[1.586s]       |                                            [01;31m[K^~[m[K
+[1.586s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[1.586s]    48 |         std::shared_ptr<[01;31m[Kconst[m[K switch_places::action::MoveToMap::Goal> goal)
+[1.586s]       |                         [01;31m[K^~~~~[m[K
+[1.586s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[1.586s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:48:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[1.586s]    48 |         [01;31m[Kstd[m[K::shared_ptr<const switch_places::action::MoveToMap::Goal> goal)
+[1.586s]       |         [01;31m[K^~~[m[K
+[1.590s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.590s]    57 | ancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.590s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.591s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.591s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:135:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.591s]    57 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle)
+[1.591s]       |                                                             [01;31m[K^~[m[K
+[1.591s] 
+[1.596s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.596s]    57 | ancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.596s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.596s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.596s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:135:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.596s]    57 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle)
+[1.596s]       |                                                             [01;31m[K^~[m[K
+[1.596s] 
+[1.601s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.602s]    57 | ancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.602s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.602s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.602s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:135:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.602s]    57 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle)
+[1.602s]       |                                                             [01;31m[K^~[m[K
+[1.602s] 
+[1.602s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:71:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.602s]    57 | _action::CancelResponse handle_cancel(const std::shared_ptr<[01;31m[Krclcpp_action[m[K::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)
+[1.602s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.602s] 
+[1.607s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.607s]    57 | ancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.607s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.607s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.607s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.607s]    57 | action::ServerGoalHandle<switch_places::action::MoveToMap>> [01;31m[Kgoal_handle[m[K)
+[1.607s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[1.607s] 
+[1.607s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.608s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.608s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:55:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.608s]    57 |     rclcpp_action::CancelResponse handle_cancel(const [01;31m[Kstd[m[K::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)
+[1.608s]       |                                                       [01;31m[K^~~[m[K
+[1.608s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[Kgoal_handle[m[K’
+[1.608s]    57 | action::ServerGoalHandle<switch_places::action::MoveToMap>> [01;31m[Kgoal_handle[m[K)
+[1.608s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[1.608s] 
+[1.608s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:138:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kgoal_handle[m[K’
+[1.608s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:57:49:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[1.608s]    57 |     rclcpp_action::CancelResponse handle_cancel([01;31m[Kconst[m[K std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)
+[1.608s]       |                                                 [01;31m[K^~~~~[m[K
+[1.613s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.613s]    65 | epted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.613s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.613s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.613s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:112:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.613s]    65 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle)
+[1.613s]       |                                                             [01;31m[K^~[m[K
+[1.613s] 
+[1.618s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.618s]    65 | epted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.618s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.619s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.619s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:112:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.619s]    65 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle)
+[1.619s]       |                                                             [01;31m[K^~[m[K
+[1.619s] 
+[1.624s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.624s]    65 | epted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.624s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.624s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.624s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:112:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.624s]    65 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle)
+[1.624s]       |                                                             [01;31m[K^~[m[K
+[1.624s] 
+[1.624s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:48:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.624s]    65 |     void handle_accepted(const std::shared_ptr<[01;31m[Krclcpp_action[m[K::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)
+[1.624s]       |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[1.629s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.629s]    65 | epted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.629s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.629s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.629s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.629s]    65 | action::ServerGoalHandle<switch_places::action::MoveToMap>> [01;31m[Kgoal_handle[m[K)
+[1.630s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[1.630s] 
+[1.630s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.630s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.630s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:32:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.630s]    65 |     void handle_accepted(const [01;31m[Kstd[m[K::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)
+[1.630s]       |                                [01;31m[K^~~[m[K
+[1.630s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[Kgoal_handle[m[K’
+[1.630s]    65 | action::ServerGoalHandle<switch_places::action::MoveToMap>> [01;31m[Kgoal_handle[m[K)
+[1.630s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[1.630s] 
+[1.630s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:115:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kgoal_handle[m[K’
+[1.630s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:65:26:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[1.630s]    65 |     void handle_accepted([01;31m[Kconst[m[K std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)
+[1.630s]       |                          [01;31m[K^~~~~[m[K
+[1.635s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.635s]    72 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.635s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.635s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.635s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:104:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.635s]    72 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle)
+[1.635s]       |                                                             [01;31m[K^~[m[K
+[1.636s] 
+[1.641s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.641s]    72 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.641s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.641s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.641s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:104:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.641s]    72 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle)
+[1.641s]       |                                                             [01;31m[K^~[m[K
+[1.641s] 
+[1.646s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.646s]    72 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.647s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.647s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.647s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:104:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.647s]    72 | pp_action::ServerGoalHandle<switch_places::action::MoveToMap[01;31m[K>>[m[K goal_handle)
+[1.647s]       |                                                             [01;31m[K^~[m[K
+[1.647s] 
+[1.647s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:40:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.647s]    72 |     void execute(const std::shared_ptr<[01;31m[Krclcpp_action[m[K::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)
+[1.647s]       |                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[1.652s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_places_msgs[m[K’?
+[1.652s]    72 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kswitch_places[m[K::action::MoveToMap>> goal_handle)
+[1.652s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.652s]       |                                                             [32m[Kswitch_places_msgs[m[K
+[1.652s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.652s]    72 | action::ServerGoalHandle<switch_places::action::MoveToMap>> [01;31m[Kgoal_handle[m[K)
+[1.652s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[1.652s] 
+[1.653s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.653s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.653s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:24:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.653s]    72 |     void execute(const [01;31m[Kstd[m[K::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)
+[1.653s]       |                        [01;31m[K^~~[m[K
+[1.653s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[Kgoal_handle[m[K’
+[1.653s]    72 | action::ServerGoalHandle<switch_places::action::MoveToMap>> [01;31m[Kgoal_handle[m[K)
+[1.653s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[1.653s] 
+[1.653s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:107:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kgoal_handle[m[K’
+[1.653s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:72:18:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[1.653s]    72 |     void execute([01;31m[Kconst[m[K std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places::action::MoveToMap>> goal_handle)
+[1.653s]       |                  [01;31m[K^~~~~[m[K
+[1.658s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In constructor ‘[01m[KMoveToMapActionServer::MoveToMapActionServer()[m[K’:
+[1.658s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[1.658s]    21 |         [01;31m[Kaction_server_[m[K = rclcpp_action::create_server<switch_places::action::MoveToMap>(
+[1.659s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.659s]       |         [32m[Krcl_action_server_t[m[K
+[1.664s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_map[m[K’?
+[1.664s]    21 |         action_server_ = rclcpp_action::create_server<[01;31m[Kswitch_places[m[K::action::MoveToMap>(
+[1.664s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.664s]       |                                                       [32m[Kswitch_map[m[K
+[1.664s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:41:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.664s]    21 |         action_server_ = rclcpp_action::[01;31m[Kcreate_server<switch_places::action::MoveToMap>[m[K(
+[1.664s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.671s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<<expression error> >(MoveToMapActionServer*, const char [12], std::_Bind_helper<false, rclcpp_action::GoalResponse (MoveToMapActionServer::*)(...), MoveToMapActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (MoveToMapActionServer::*)(...), MoveToMapActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (MoveToMapActionServer::*)(...), MoveToMapActionServer*, const std::_Placeholder<1>&>::type)[m[K’
+[1.671s]    21 | rver_ = [01;31m[Krclcpp_action::create_server<switch_places::action::MoveToMap>([m[K
+[1.671s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.671s] 
+[1.671s]    22 | 
+[1.671s]       |                                                                        
+[1.672s] 
+[1.672s]    23 | [01;31m[K_to_map",[m[K
+[1.672s]       | [01;31m[K~~~~~~~~~[m[K                                                              
+[1.672s] 
+[1.672s]    24 | [01;31m[Kbind(&MoveToMapActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),[m[K
+[1.672s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.672s] 
+[1.672s]    25 | [01;31m[Kbind(&MoveToMapActionServer::handle_cancel, this, std::placeholders::_1),[m[K
+[1.672s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.672s] 
+[1.672s]    26 | [01;31m[Kbind(&MoveToMapActionServer::handle_accepted, this, std::placeholders::_1)[m[K
+[1.672s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.672s] 
+[1.672s]    27 | 
+[1.672s]       |                                                                        
+[1.672s] 
+[1.672s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[1.673s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:3[m[K:
+[1.673s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[1.673s]    58 | [01;36m[Kcreate_server[m[K(
+[1.673s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[1.673s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.673s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.673s]    21 | rver_ = [01;31m[Krclcpp_action::create_server<switch_places::action::MoveToMap>([m[K
+[1.673s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.673s] 
+[1.673s]    22 | 
+[1.673s]       |                                                                        
+[1.673s] 
+[1.673s]    23 | [01;31m[K_to_map",[m[K
+[1.673s]       | [01;31m[K~~~~~~~~~[m[K                                                              
+[1.673s] 
+[1.673s]    24 | [01;31m[Kbind(&MoveToMapActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),[m[K
+[1.673s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.673s] 
+[1.674s]    25 | [01;31m[Kbind(&MoveToMapActionServer::handle_cancel, this, std::placeholders::_1),[m[K
+[1.674s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.674s] 
+[1.674s]    26 | [01;31m[Kbind(&MoveToMapActionServer::handle_accepted, this, std::placeholders::_1)[m[K
+[1.674s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.674s] 
+[1.674s]    27 | 
+[1.674s]       |                                                                        
+[1.674s] 
+[1.674s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[1.674s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:3[m[K:
+[1.674s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[1.674s]   132 | [01;36m[Kcreate_server[m[K(
+[1.674s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[1.674s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.674s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:21:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.674s]    21 | rver_ = [01;31m[Krclcpp_action::create_server<switch_places::action::MoveToMap>([m[K
+[1.675s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.675s] 
+[1.675s]    22 | 
+[1.675s]       |                                                                        
+[1.675s] 
+[1.675s]    23 | [01;31m[K_to_map",[m[K
+[1.675s]       | [01;31m[K~~~~~~~~~[m[K                                                              
+[1.675s] 
+[1.675s]    24 | [01;31m[Kbind(&MoveToMapActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),[m[K
+[1.675s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.675s] 
+[1.675s]    25 | [01;31m[Kbind(&MoveToMapActionServer::handle_cancel, this, std::placeholders::_1),[m[K
+[1.675s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.675s] 
+[1.675s]    26 | [01;31m[Kbind(&MoveToMapActionServer::handle_accepted, this, std::placeholders::_1)[m[K
+[1.675s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.675s] 
+[1.676s]    27 | 
+[1.676s]       |                                                                        
+[1.676s] 
+[1.676s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MoveToMapActionServer::handle_goal(...)[m[K’:
+[1.676s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:51:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+[1.676s]    51 |         current_room = [01;31m[Kgoal[m[K->map_name;
+[1.676s]       |                        [01;31m[K^~~~[m[K
+[1.681s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse MoveToMapActionServer::handle_cancel(...)[m[K’:
+[1.681s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:59:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[1.682s]    59 |         (void)[01;31m[Kgoal_handle[m[K;
+[1.682s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[1.687s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::handle_accepted(...)[m[K’:
+[1.687s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:67:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[1.687s]    67 |         (void)[01;31m[Kgoal_handle[m[K;
+[1.687s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[1.687s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:68:105:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::thread::thread(<brace-enclosed initializer list>)[m[K’
+[1.687s]    68 | onServer::execute, this, std::placeholders::_1), goal_handle[01;31m[K}[m[K.detach();
+[1.687s]       |                                                             [01;31m[K^[m[K
+[1.687s] 
+[1.687s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[1.688s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.688s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.688s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:1[m[K:
+[1.688s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)[m[K’
+[1.688s]   127 |       [01;36m[Kthread[m[K(_Callable&& __f, _Args&&... __args)
+[1.688s]       |       [01;36m[K^~~~~~[m[K
+[1.688s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.688s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread(std::thread&&)[m[K’
+[1.688s]   157 |     [01;36m[Kthread[m[K(thread&& __t) noexcept
+[1.688s]       |     [01;36m[K^~~~~~[m[K
+[1.688s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[1.688s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread()[m[K’
+[1.688s]   121 |     [01;36m[Kthread[m[K() noexcept = default;
+[1.688s]       |     [01;36m[K^~~~~~[m[K
+[1.688s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[1.692s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::execute(...)[m[K’:
+[1.693s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:74:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[1.693s]    74 |         auto goal = [01;31m[Kgoal_handle[m[K->get_goal();
+[1.693s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[1.698s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:75:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kswitch_places[m[K’ was not declared in this scope; did you mean ‘[01m[Kswitch_map[m[K’?
+[1.698s]    75 |         auto feedback = std::make_shared<[01;31m[Kswitch_places[m[K::action::MoveToMap::Feedback>();
+[1.698s]       |                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[1.699s]       |                                          [32m[Kswitch_map[m[K
+[1.699s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:75:30:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.699s]    75 |         auto feedback = std::[01;31m[Kmake_shared<switch_places::action::MoveToMap::Feedback>[m[K();
+[1.699s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.699s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:75:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.699s]    75 | dback = [01;31m[Kstd::make_shared<switch_places::action::MoveToMap::Feedback>()[m[K;
+[1.699s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.699s] 
+[1.699s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.699s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:1[m[K:
+[1.699s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.699s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.699s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.699s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.700s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:75:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.700s]    75 | dback = [01;31m[Kstd::make_shared<switch_places::action::MoveToMap::Feedback>()[m[K;
+[1.700s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.700s] 
+[1.700s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:76:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.700s]    76 |         auto result = std::[01;31m[Kmake_shared<switch_places::action::MoveToMap::Result>[m[K();
+[1.700s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.700s] [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:76:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<switch_places>()[m[K’
+[1.700s]    76 |  result = [01;31m[Kstd::make_shared<switch_places::action::MoveToMap::Result>()[m[K;
+[1.700s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.700s] 
+[1.700s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.700s]                  from [01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:1[m[K:
+[1.700s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.701s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.701s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.701s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.828s] gmake[2]: *** [CMakeFiles/move_to_map_client.dir/build.make:76: CMakeFiles/move_to_map_client.dir/src/move_to_map_client.cpp.o] Error 1
+[1.828s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/move_to_map_client.dir/all] Error 2
+[1.828s] gmake[1]: *** Waiting for unfinished jobs....
+[2.713s] gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+[2.713s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+[2.713s] gmake: *** [Makefile:146: all] Error 2
+[2.715s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12

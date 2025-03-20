@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[0.073s] [ 75%] Built target move_to_map_client
+[5.486s] [100%] [32m[1mLinking CXX executable move_to_map_server[0m
+[5.870s] [100%] Built target move_to_map_server
+[5.884s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places -- -j12 -l12
+[5.885s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/janhavi/MultiMapWormholes/build/switch_places
+[5.891s] -- Install configuration: ""
+[5.891s] -- Execute custom install script
+[5.891s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_server
+[5.891s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_client
+[5.891s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/package_run_dependencies/switch_places
+[5.891s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/parent_prefix_path/switch_places
+[5.891s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.sh
+[5.892s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.dsv
+[5.892s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.sh
+[5.892s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.dsv
+[5.892s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.bash
+[5.892s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.sh
+[5.892s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.zsh
+[5.892s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.dsv
+[5.892s] -- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.dsv
+[5.899s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/packages/switch_places
+[5.900s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig.cmake
+[5.900s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig-version.cmake
+[5.900s] -- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.xml
+[5.901s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/janhavi/MultiMapWormholes/build/switch_places

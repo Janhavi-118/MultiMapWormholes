@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/janhavi/MultiMapWormholes/build/switch_places/rosidl_generator_py/switch_places/switch_places_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "switch_places__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/switch_places")

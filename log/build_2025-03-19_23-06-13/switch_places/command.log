@@ -1,0 +1,2 @@
+Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/janhavi/MultiMapWormholes/src/switch_places -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/janhavi/MultiMapWormholes/install/switch_places
+Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/janhavi/MultiMapWormholes/src/switch_places -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/janhavi/MultiMapWormholes/install/switch_places

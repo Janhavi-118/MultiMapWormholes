@@ -1,0 +1,10 @@
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::switch_map(const string&)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:189:38:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+  189 |         bool res = [01;31m[Kdelete_robot_model()[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:230:44:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+  230 |         bool res3 = [01;31m[Kspawn_robot_at_position(wormhole_x, wormhole_y)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

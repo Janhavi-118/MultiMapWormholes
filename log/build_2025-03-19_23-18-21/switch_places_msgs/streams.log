@@ -1,0 +1,225 @@
+[0.007s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/janhavi/MultiMapWormholes/src/switch_places_msgs -DCMAKE_INSTALL_PREFIX=/home/janhavi/MultiMapWormholes/install/switch_places_msgs
+[0.014s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.118s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.119s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.123s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.155s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.156s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.167s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.193s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.381s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.720s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.721s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.744s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.744s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.744s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.744s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.760s] -- Found PythonExtra: .so  
+[0.787s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.796s] -- Added test 'lint_cmake' to check CMake code style
+[0.797s] -- Added test 'xmllint' to check XML markup files
+[0.798s] -- Configuring done
+[0.815s] -- Generating done
+[0.822s] -- Build files have been written to: /home/janhavi/MultiMapWormholes/build/switch_places_msgs
+[0.827s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/janhavi/MultiMapWormholes/src/switch_places_msgs -DCMAKE_INSTALL_PREFIX=/home/janhavi/MultiMapWormholes/install/switch_places_msgs
+[0.828s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places_msgs -- -j12 -l12
+[0.863s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.871s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.878s] [  6%] Built target ament_cmake_python_copy_switch_places_msgs
+[1.125s] running egg_info
+[1.146s] creating switch_places_msgs.egg-info
+[1.147s] writing switch_places_msgs.egg-info/PKG-INFO
+[1.147s] writing dependency_links to switch_places_msgs.egg-info/dependency_links.txt
+[1.147s] writing top-level names to switch_places_msgs.egg-info/top_level.txt
+[1.147s] writing manifest file 'switch_places_msgs.egg-info/SOURCES.txt'
+[1.189s] [  9%] [32mBuilding C object CMakeFiles/switch_places_msgs__rosidl_generator_c.dir/rosidl_generator_c/switch_places_msgs/action/detail/move_to_map__functions.c.o[0m
+[1.201s] reading manifest file 'switch_places_msgs.egg-info/SOURCES.txt'
+[1.201s] [  9%] Built target switch_places_msgs__cpp
+[1.201s] writing manifest file 'switch_places_msgs.egg-info/SOURCES.txt'
+[1.211s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.212s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.212s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.233s] [ 19%] Built target ament_cmake_python_build_switch_places_msgs_egg
+[1.278s] [ 22%] [32m[1mLinking C shared library libswitch_places_msgs__rosidl_generator_c.so[0m
+[1.312s] [ 22%] Built target switch_places_msgs__rosidl_generator_c
+[1.322s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.322s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.322s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.534s] [ 35%] [32mBuilding CXX object CMakeFiles/switch_places_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/switch_places_msgs/action/detail/move_to_map__type_support.cpp.o[0m
+[1.632s] [ 38%] [32mBuilding CXX object CMakeFiles/switch_places_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/switch_places_msgs/action/move_to_map__type_support.cpp.o[0m
+[1.648s] [ 41%] [32mBuilding C object CMakeFiles/switch_places_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/switch_places_msgs/action/detail/move_to_map__type_support.c.o[0m
+[1.668s] [ 45%] [32mBuilding CXX object CMakeFiles/switch_places_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/switch_places_msgs/action/detail/move_to_map__type_support_c.cpp.o[0m
+[1.686s] [ 48%] [32m[1mLinking C shared library libswitch_places_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.702s] [ 51%] [32mBuilding CXX object CMakeFiles/switch_places_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/switch_places_msgs/action/detail/dds_fastrtps/move_to_map__type_support.cpp.o[0m
+[1.718s] [ 51%] Built target switch_places_msgs__rosidl_typesupport_introspection_c
+[1.749s] [ 54%] [32mBuilding CXX object CMakeFiles/switch_places_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/switch_places_msgs/action/move_to_map__type_support.cpp.o[0m
+[1.799s] [ 58%] [32m[1mLinking CXX shared library libswitch_places_msgs__rosidl_typesupport_c.so[0m
+[1.842s] [ 58%] Built target switch_places_msgs__rosidl_typesupport_c
+[1.930s] [ 61%] [32m[1mLinking CXX shared library libswitch_places_msgs__rosidl_typesupport_cpp.so[0m
+[1.973s] [ 61%] Built target switch_places_msgs__rosidl_typesupport_cpp
+[2.003s] [ 64%] [32m[1mLinking CXX shared library libswitch_places_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.031s] [ 67%] [32m[1mLinking CXX shared library libswitch_places_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.058s] [ 67%] Built target switch_places_msgs__rosidl_typesupport_introspection_cpp
+[2.087s] [ 67%] Built target switch_places_msgs__rosidl_typesupport_fastrtps_c
+[2.151s] [ 70%] [32m[1mLinking CXX shared library libswitch_places_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.201s] [ 70%] Built target switch_places_msgs__rosidl_typesupport_fastrtps_cpp
+[2.216s] [ 70%] Built target switch_places_msgs
+[2.234s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.751s] [ 74%] Built target switch_places_msgs__py
+[2.765s] [ 77%] [32mBuilding C object CMakeFiles/switch_places_msgs__rosidl_generator_py.dir/rosidl_generator_py/switch_places_msgs/action/_move_to_map_s.c.o[0m
+[2.848s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/switch_places_msgs/libswitch_places_msgs__rosidl_generator_py.so[0m
+[2.877s] [ 80%] Built target switch_places_msgs__rosidl_generator_py
+[2.893s] [ 83%] [32mBuilding C object CMakeFiles/switch_places_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/switch_places_msgs/_switch_places_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.893s] [ 87%] [32mBuilding C object CMakeFiles/switch_places_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/switch_places_msgs/_switch_places_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.894s] [ 90%] [32mBuilding C object CMakeFiles/switch_places_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/switch_places_msgs/_switch_places_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.966s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.966s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.992s] [ 96%] Built target switch_places_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.994s] [ 96%] Built target switch_places_msgs__rosidl_typesupport_introspection_c__pyext
+[3.000s] [100%] [32m[1mLinking C shared library rosidl_generator_py/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.029s] [100%] Built target switch_places_msgs__rosidl_typesupport_c__pyext
+[3.040s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places_msgs -- -j12 -l12
+[3.048s] Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/janhavi/MultiMapWormholes/build/switch_places_msgs
+[3.055s] -- Install configuration: ""
+[3.055s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/ament_index/resource_index/rosidl_interfaces/switch_places_msgs
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__functions.c
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__functions.h
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.h
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__type_support.h
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.h
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.056s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/library_path.sh
+[3.057s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/library_path.dsv
+[3.057s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_generator_c.so
+[3.057s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_generator_c.so" to ""
+[3.057s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs
+[3.057s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action
+[3.057s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail
+[3.057s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__rosidl_typesupport_fastrtps_c.h
+[3.057s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg
+[3.057s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.057s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_fastrtps_c.so
+[3.058s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.058s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs
+[3.058s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action
+[3.058s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp
+[3.058s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail
+[3.058s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp
+[3.058s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__builder.hpp
+[3.058s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__traits.hpp
+[3.058s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__type_support.hpp
+[3.058s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg
+[3.058s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.058s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs
+[3.058s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action
+[3.058s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail
+[3.058s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/dds_fastrtps
+[3.058s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__rosidl_typesupport_fastrtps_cpp.hpp
+[3.058s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg
+[3.059s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.059s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.059s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.059s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs
+[3.059s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action
+[3.059s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail
+[3.059s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__type_support.c
+[3.059s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__rosidl_typesupport_introspection_c.h
+[3.059s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg
+[3.059s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.059s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_introspection_c.so
+[3.060s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.060s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_c.so
+[3.060s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_c.so" to ""
+[3.060s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs
+[3.060s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action
+[3.060s] -- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail
+[3.060s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__type_support.cpp
+[3.060s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__rosidl_typesupport_introspection_cpp.hpp
+[3.061s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_introspection_cpp.so
+[3.061s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.061s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_cpp.so
+[3.061s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_cpp.so" to ""
+[3.061s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/pythonpath.sh
+[3.061s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/pythonpath.dsv
+[3.061s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info
+[3.061s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/_switch_places_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action/__init__.py
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action/_move_to_map.py
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action/_move_to_map_s.c
+[3.062s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/_switch_places_msgs_s.ep.rosidl_typesupport_c.c
+[3.063s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/libswitch_places_msgs__rosidl_generator_py.so
+[3.063s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.063s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.063s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.063s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/__init__.py
+[3.063s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/_switch_places_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.088s] Listing '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs'...
+[3.088s] Compiling '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/__init__.py'...
+[3.088s] Listing '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action'...
+[3.088s] Compiling '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action/__init__.py'...
+[3.088s] Compiling '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action/_move_to_map.py'...
+[3.091s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.091s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.092s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.092s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_generator_py.so
+[3.092s] -- Set runtime path of "/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_generator_py.so" to ""
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/action/MoveToMap.idl
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/action/MoveToMap.action
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/ament_index/resource_index/package_run_dependencies/switch_places_msgs
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/ament_index/resource_index/parent_prefix_path/switch_places_msgs
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/ament_prefix_path.sh
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/ament_prefix_path.dsv
+[3.092s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/path.sh
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/path.dsv
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/local_setup.bash
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/local_setup.sh
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/local_setup.zsh
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/local_setup.dsv
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/package.dsv
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/ament_index/resource_index/packages/switch_places_msgs
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_cExport.cmake
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_cppExport.cmake
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.093s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_cExport.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_cppExport.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_pyExport.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/rosidl_cmake-extras.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.094s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.095s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgsConfig.cmake
+[3.095s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgsConfig-version.cmake
+[3.095s] -- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/package.xml
+[3.096s] Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/janhavi/MultiMapWormholes/build/switch_places_msgs

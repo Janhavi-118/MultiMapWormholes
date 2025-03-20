@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (switch_places) JobQueued: {'identifier': 'switch_places', 'dependencies': OrderedDict()}
+[0.000230] (switch_places_msgs) JobQueued: {'identifier': 'switch_places_msgs', 'dependencies': OrderedDict()}
+[0.000622] (switch_places) JobStarted: {'identifier': 'switch_places'}
+[0.006442] (switch_places_msgs) JobStarted: {'identifier': 'switch_places_msgs'}
+[0.010780] (switch_places) JobProgress: {'identifier': 'switch_places', 'progress': 'cmake'}
+[0.011333] (switch_places) JobProgress: {'identifier': 'switch_places', 'progress': 'build'}
+[0.012249] (switch_places) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janhavi/MultiMapWormholes/build/switch_places', '--', '-j12', '-l12'], 'cwd': '/home/janhavi/MultiMapWormholes/build/switch_places', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2036,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2036'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ed2fa54_6a3c_44d8_ac9e_375c3af76f21'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LVNI32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/home/janhavi/MultiMapWormholes/install/switch_places:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/MultiMapWormholes/build/switch_places'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/home/janhavi/MultiMapWormholes/install/switch_places:/opt/ros/humble')]), 'shell': False}
+[0.015487] (switch_places_msgs) JobProgress: {'identifier': 'switch_places_msgs', 'progress': 'cmake'}
+[0.016523] (switch_places_msgs) JobProgress: {'identifier': 'switch_places_msgs', 'progress': 'build'}
+[0.016826] (switch_places_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janhavi/MultiMapWormholes/build/switch_places_msgs', '--', '-j12', '-l12'], 'cwd': '/home/janhavi/MultiMapWormholes/build/switch_places_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2036,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2036'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ed2fa54_6a3c_44d8_ac9e_375c3af76f21'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LVNI32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/home/janhavi/MultiMapWormholes/install/switch_places:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/MultiMapWormholes/build/switch_places_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/home/janhavi/MultiMapWormholes/install/switch_places:/opt/ros/humble')]), 'shell': False}
+[0.059254] (switch_places) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target move_to_map_server\x1b[0m\n'}
+[0.067071] (switch_places_msgs) StdoutLine: {'line': b'[  3%] Built target switch_places_msgs__cpp\n'}
+[0.070458] (switch_places_msgs) StdoutLine: {'line': b'[ 12%] Built target switch_places_msgs__rosidl_generator_c\n'}
+[0.071502] (switch_places) StdoutLine: {'line': b'[ 50%] Built target move_to_map_client\n'}
+[0.076445] (switch_places) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o\x1b[0m\n'}
+[0.079805] (switch_places_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_switch_places_msgs\n'}
+[0.088166] (switch_places_msgs) StdoutLine: {'line': b'[ 22%] Built target switch_places_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.089220] (switch_places_msgs) StdoutLine: {'line': b'[ 35%] Built target switch_places_msgs__rosidl_typesupport_cpp\n'}
+[0.089437] (switch_places_msgs) StdoutLine: {'line': b'[ 41%] Built target switch_places_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.090386] (switch_places_msgs) StdoutLine: {'line': b'[ 51%] Built target switch_places_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.090608] (switch_places_msgs) StdoutLine: {'line': b'[ 61%] Built target switch_places_msgs__rosidl_typesupport_introspection_c\n'}
+[0.092291] (switch_places_msgs) StdoutLine: {'line': b'[ 70%] Built target switch_places_msgs__rosidl_typesupport_c\n'}
+[0.099465] (-) TimerEvent: {}
+[0.110975] (switch_places_msgs) StdoutLine: {'line': b'[ 70%] Built target switch_places_msgs\n'}
+[0.132486] (switch_places_msgs) StdoutLine: {'line': b'[ 74%] Built target switch_places_msgs__py\n'}
+[0.157753] (switch_places_msgs) StdoutLine: {'line': b'[ 80%] Built target switch_places_msgs__rosidl_generator_py\n'}
+[0.178575] (switch_places_msgs) StdoutLine: {'line': b'[ 87%] Built target switch_places_msgs__rosidl_typesupport_c__pyext\n'}
+[0.180472] (switch_places_msgs) StdoutLine: {'line': b'[ 93%] Built target switch_places_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.180620] (switch_places_msgs) StdoutLine: {'line': b'[100%] Built target switch_places_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.199558] (-) TimerEvent: {}
+[0.290229] (switch_places_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.299652] (-) TimerEvent: {}
+[0.308184] (switch_places_msgs) StdoutLine: {'line': b'writing switch_places_msgs.egg-info/PKG-INFO\n'}
+[0.308569] (switch_places_msgs) StdoutLine: {'line': b'writing dependency_links to switch_places_msgs.egg-info/dependency_links.txt\n'}
+[0.308853] (switch_places_msgs) StdoutLine: {'line': b'writing top-level names to switch_places_msgs.egg-info/top_level.txt\n'}
+[0.373908] (switch_places_msgs) StdoutLine: {'line': b"reading manifest file 'switch_places_msgs.egg-info/SOURCES.txt'\n"}
+[0.375355] (switch_places_msgs) StdoutLine: {'line': b"writing manifest file 'switch_places_msgs.egg-info/SOURCES.txt'\n"}
+[0.399860] (-) TimerEvent: {}
+[0.420806] (switch_places_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_switch_places_msgs_egg\n'}
+[0.434735] (switch_places_msgs) CommandEnded: {'returncode': 0}
+[0.435821] (switch_places_msgs) JobProgress: {'identifier': 'switch_places_msgs', 'progress': 'install'}
+[0.445317] (switch_places_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/janhavi/MultiMapWormholes/build/switch_places_msgs'], 'cwd': '/home/janhavi/MultiMapWormholes/build/switch_places_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2036,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2036'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ed2fa54_6a3c_44d8_ac9e_375c3af76f21'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LVNI32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/home/janhavi/MultiMapWormholes/install/switch_places:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/MultiMapWormholes/build/switch_places_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/home/janhavi/MultiMapWormholes/install/switch_places:/opt/ros/humble')]), 'shell': False}
+[0.453199] (switch_places_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.453587] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/ament_index/resource_index/rosidl_interfaces/switch_places_msgs\n'}
+[0.453735] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs\n'}
+[0.453802] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action\n'}
+[0.453835] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail\n'}
+[0.453862] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__functions.c\n'}
+[0.453898] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__functions.h\n'}
+[0.454011] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.h\n'}
+[0.454098] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__type_support.h\n'}
+[0.454168] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.h\n'}
+[0.454239] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg\n'}
+[0.454307] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.454437] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/library_path.sh\n'}
+[0.454509] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/library_path.dsv\n'}
+[0.454582] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_generator_c.so\n'}
+[0.454652] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs\n'}
+[0.454718] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action\n'}
+[0.454783] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail\n'}
+[0.454930] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.455060] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg\n'}
+[0.455128] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.455204] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.455265] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs\n'}
+[0.455331] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action\n'}
+[0.455396] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/move_to_map.hpp\n'}
+[0.455458] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail\n'}
+[0.455523] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__struct.hpp\n'}
+[0.455591] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__builder.hpp\n'}
+[0.455655] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__traits.hpp\n'}
+[0.455717] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__type_support.hpp\n'}
+[0.455782] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg\n'}
+[0.455849] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.455942] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs\n'}
+[0.456015] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action\n'}
+[0.456080] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail\n'}
+[0.456142] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/dds_fastrtps\n'}
+[0.456235] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.456326] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg\n'}
+[0.456363] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.456393] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.456463] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs\n'}
+[0.456494] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action\n'}
+[0.456553] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail\n'}
+[0.456581] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__type_support.c\n'}
+[0.456609] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__rosidl_typesupport_introspection_c.h\n'}
+[0.456659] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg\n'}
+[0.456713] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.456766] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.456838] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_c.so\n'}
+[0.456912] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs\n'}
+[0.456947] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action\n'}
+[0.456986] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail\n'}
+[0.457049] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__type_support.cpp\n'}
+[0.457079] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/include/switch_places_msgs/switch_places_msgs/action/detail/move_to_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.457124] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.457374] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_typesupport_cpp.so\n'}
+[0.457519] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/pythonpath.sh\n'}
+[0.457574] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/pythonpath.dsv\n'}
+[0.457632] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info\n'}
+[0.457662] (switch_places_msgs) StdoutLine: {'line': b'-- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.457815] (switch_places_msgs) StdoutLine: {'line': b'-- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.457952] (switch_places_msgs) StdoutLine: {'line': b'-- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.458064] (switch_places_msgs) StdoutLine: {'line': b'-- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.458214] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs\n'}
+[0.458275] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/_switch_places_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.458314] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action\n'}
+[0.458342] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action/__init__.py\n'}
+[0.458385] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action/_move_to_map.py\n'}
+[0.458439] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action/_move_to_map_s.c\n'}
+[0.458469] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/_switch_places_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.458496] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/libswitch_places_msgs__rosidl_generator_py.so\n'}
+[0.458525] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.458581] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.458609] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.458636] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/__init__.py\n'}
+[0.458668] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/_switch_places_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.491018] (switch_places_msgs) StdoutLine: {'line': b"Listing '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs'...\n"}
+[0.491202] (switch_places_msgs) StdoutLine: {'line': b"Listing '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/action'...\n"}
+[0.495877] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.496490] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.497083] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages/switch_places_msgs/switch_places_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.497702] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib/libswitch_places_msgs__rosidl_generator_py.so\n'}
+[0.497854] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/action/MoveToMap.idl\n'}
+[0.497924] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/action/MoveToMap.action\n'}
+[0.498064] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/ament_index/resource_index/package_run_dependencies/switch_places_msgs\n'}
+[0.498181] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/ament_index/resource_index/parent_prefix_path/switch_places_msgs\n'}
+[0.498251] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/ament_prefix_path.sh\n'}
+[0.498320] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/ament_prefix_path.dsv\n'}
+[0.498388] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/path.sh\n'}
+[0.498456] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/environment/path.dsv\n'}
+[0.498528] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/local_setup.bash\n'}
+[0.498642] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/local_setup.sh\n'}
+[0.498711] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/local_setup.zsh\n'}
+[0.498803] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/local_setup.dsv\n'}
+[0.498869] (switch_places_msgs) StdoutLine: {'line': b'-- Installing: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/package.dsv\n'}
+[0.498934] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/ament_index/resource_index/packages/switch_places_msgs\n'}
+[0.499115] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_cExport.cmake\n'}
+[0.499204] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.499468] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.499602] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.499807] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.499893] (-) TimerEvent: {}
+[0.500233] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.500397] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.500683] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.500844] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.501041] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.501162] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.501274] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.501391] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.501621] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.501761] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.501881] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.502043] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/export_switch_places_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.502189] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.502285] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.502413] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.502518] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.502603] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.502692] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.502783] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.502871] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgsConfig.cmake\n'}
+[0.502963] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/cmake/switch_places_msgsConfig-version.cmake\n'}
+[0.503071] (switch_places_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/janhavi/MultiMapWormholes/install/switch_places_msgs/share/switch_places_msgs/package.xml\n'}
+[0.504476] (switch_places_msgs) CommandEnded: {'returncode': 0}
+[0.532162] (switch_places_msgs) JobEnded: {'identifier': 'switch_places_msgs', 'rc': 0}
+[0.600076] (-) TimerEvent: {}
+[0.700379] (-) TimerEvent: {}
+[0.800681] (-) TimerEvent: {}
+[0.901166] (-) TimerEvent: {}
+[1.001510] (-) TimerEvent: {}
+[1.101772] (-) TimerEvent: {}
+[1.202142] (-) TimerEvent: {}
+[1.302397] (-) TimerEvent: {}
+[1.402679] (-) TimerEvent: {}
+[1.502991] (-) TimerEvent: {}
+[1.603311] (-) TimerEvent: {}
+[1.703580] (-) TimerEvent: {}
+[1.803876] (-) TimerEvent: {}
+[1.904317] (-) TimerEvent: {}
+[2.004808] (-) TimerEvent: {}
+[2.105213] (-) TimerEvent: {}
+[2.205487] (-) TimerEvent: {}
+[2.306001] (-) TimerEvent: {}
+[2.406472] (-) TimerEvent: {}
+[2.506744] (-) TimerEvent: {}
+[2.607027] (-) TimerEvent: {}
+[2.707335] (-) TimerEvent: {}
+[2.807631] (-) TimerEvent: {}
+[2.907950] (-) TimerEvent: {}
+[3.008617] (-) TimerEvent: {}
+[3.109065] (-) TimerEvent: {}
+[3.209348] (-) TimerEvent: {}
+[3.309599] (-) TimerEvent: {}
+[3.409891] (-) TimerEvent: {}
+[3.510241] (-) TimerEvent: {}
+[3.610545] (-) TimerEvent: {}
+[3.710816] (-) TimerEvent: {}
+[3.811119] (-) TimerEvent: {}
+[3.911444] (-) TimerEvent: {}
+[4.011741] (-) TimerEvent: {}
+[4.112076] (-) TimerEvent: {}
+[4.212552] (-) TimerEvent: {}
+[4.312944] (-) TimerEvent: {}
+[4.413207] (-) TimerEvent: {}
+[4.513525] (-) TimerEvent: {}
+[4.613831] (-) TimerEvent: {}
+[4.714227] (-) TimerEvent: {}
+[4.814669] (-) TimerEvent: {}
+[4.914946] (-) TimerEvent: {}
+[5.015302] (-) TimerEvent: {}
+[5.115610] (-) TimerEvent: {}
+[5.215884] (-) TimerEvent: {}
+[5.316160] (-) TimerEvent: {}
+[5.416432] (-) TimerEvent: {}
+[5.516683] (-) TimerEvent: {}
+[5.616953] (-) TimerEvent: {}
+[5.717295] (-) TimerEvent: {}
+[5.817741] (-) TimerEvent: {}
+[5.918018] (-) TimerEvent: {}
+[6.018353] (-) TimerEvent: {}
+[6.118655] (-) TimerEvent: {}
+[6.219073] (-) TimerEvent: {}
+[6.319334] (-) TimerEvent: {}
+[6.419661] (-) TimerEvent: {}
+[6.520036] (-) TimerEvent: {}
+[6.620332] (-) TimerEvent: {}
+[6.720701] (-) TimerEvent: {}
+[6.821126] (-) TimerEvent: {}
+[6.921528] (-) TimerEvent: {}
+[7.021851] (-) TimerEvent: {}
+[7.122113] (-) TimerEvent: {}
+[7.222400] (-) TimerEvent: {}
+[7.322661] (-) TimerEvent: {}
+[7.422948] (-) TimerEvent: {}
+[7.523322] (-) TimerEvent: {}
+[7.623571] (-) TimerEvent: {}
+[7.723863] (-) TimerEvent: {}
+[7.824141] (-) TimerEvent: {}
+[7.924531] (-) TimerEvent: {}
+[8.025043] (-) TimerEvent: {}
+[8.125341] (-) TimerEvent: {}
+[8.225621] (-) TimerEvent: {}
+[8.326014] (-) TimerEvent: {}
+[8.426345] (-) TimerEvent: {}
+[8.526595] (-) TimerEvent: {}
+[8.626951] (-) TimerEvent: {}
+[8.727221] (-) TimerEvent: {}
+[8.827560] (-) TimerEvent: {}
+[8.927857] (-) TimerEvent: {}
+[9.028270] (-) TimerEvent: {}
+[9.128623] (-) TimerEvent: {}
+[9.228901] (-) TimerEvent: {}
+[9.329188] (-) TimerEvent: {}
+[9.376212] (switch_places) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_to_map_server\x1b[0m\n'}
+[9.429290] (-) TimerEvent: {}
+[9.529562] (-) TimerEvent: {}
+[9.629835] (-) TimerEvent: {}
+[9.730250] (-) TimerEvent: {}
+[9.830600] (-) TimerEvent: {}
+[9.931139] (-) TimerEvent: {}
+[10.031492] (-) TimerEvent: {}
+[10.131746] (-) TimerEvent: {}
+[10.191015] (switch_places) StdoutLine: {'line': b'[100%] Built target move_to_map_server\n'}
+[10.201399] (switch_places) CommandEnded: {'returncode': 0}
+[10.202286] (switch_places) JobProgress: {'identifier': 'switch_places', 'progress': 'install'}
+[10.202515] (switch_places) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/janhavi/MultiMapWormholes/build/switch_places'], 'cwd': '/home/janhavi/MultiMapWormholes/build/switch_places', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'janhavi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janhavi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'janhavi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janhavi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/janhavi/.local/bin:/opt/ros/humble/bin:/home/janhavi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/janhavi-Inspiron-14-7420-2-in-1:@/tmp/.ICE-unix/2036,unix/janhavi-Inspiron-14-7420-2-in-1:/tmp/.ICE-unix/2036'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ed2fa54_6a3c_44d8_ac9e_375c3af76f21'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LVNI32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/home/janhavi/MultiMapWormholes/install/switch_places:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janhavi/MultiMapWormholes/build/switch_places'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janhavi/MultiMapWormholes/install/switch_places_msgs:/home/janhavi/MultiMapWormholes/install/switch_places:/opt/ros/humble')]), 'shell': False}
+[10.209973] (switch_places) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.210532] (switch_places) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.210822] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_server\n'}
+[10.210943] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/lib/switch_places/move_to_map_client\n'}
+[10.211091] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/package_run_dependencies/switch_places\n'}
+[10.211224] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/parent_prefix_path/switch_places\n'}
+[10.211348] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.sh\n'}
+[10.211463] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/ament_prefix_path.dsv\n'}
+[10.211581] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.sh\n'}
+[10.211690] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/environment/path.dsv\n'}
+[10.211798] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.bash\n'}
+[10.211905] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.sh\n'}
+[10.212070] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.zsh\n'}
+[10.212225] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/local_setup.dsv\n'}
+[10.212405] (switch_places) StdoutLine: {'line': b'-- Symlinking: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.dsv\n'}
+[10.220724] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/ament_index/resource_index/packages/switch_places\n'}
+[10.220906] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig.cmake\n'}
+[10.220977] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/cmake/switch_placesConfig-version.cmake\n'}
+[10.221049] (switch_places) StdoutLine: {'line': b'-- Up-to-date symlink: /home/janhavi/MultiMapWormholes/install/switch_places/share/switch_places/package.xml\n'}
+[10.222567] (switch_places) CommandEnded: {'returncode': 0}
+[10.231851] (-) TimerEvent: {}
+[10.233016] (switch_places) JobEnded: {'identifier': 'switch_places', 'rc': 0}
+[10.233505] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/janhavi/MultiMapWormholes/src/switch_places_msgs -DCMAKE_INSTALL_PREFIX=/home/janhavi/MultiMapWormholes/install/switch_places_msgs
+Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/janhavi/MultiMapWormholes/src/switch_places_msgs -DCMAKE_INSTALL_PREFIX=/home/janhavi/MultiMapWormholes/install/switch_places_msgs
+Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places_msgs -- -j12 -l12
+Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/MultiMapWormholes/build/switch_places_msgs -- -j12 -l12
+Invoking command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/janhavi/MultiMapWormholes/build/switch_places_msgs
+Invoked command in '/home/janhavi/MultiMapWormholes/build/switch_places_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/janhavi/MultiMapWormholes/build/switch_places_msgs

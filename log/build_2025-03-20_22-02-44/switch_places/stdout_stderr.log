@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target move_to_map_server[0m
+[ 50%] Built target move_to_map_client
+[ 75%] [32mBuilding CXX object CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o[0m
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:[m[K In member function ‘[01m[Kvoid MoveToMapActionServer::spawn_robot_at_position(float, float)[m[K’:
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:317:21:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KMoveToMapActionServer::spawn_robot_at_position(float, float)::stat buffer[m[K’ has incomplete type and cannot be defined
+  317 |         struct stat [01;31m[Kbuffer[m[K;
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:318:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct MoveToMapActionServer::spawn_robot_at_position(float, float)::stat[m[K’
+  318 |         if (stat(file.c_str(), &buffer[01;31m[K)[m[K != 0) {
+      |                                       [01;31m[K^[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:317:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct MoveToMapActionServer::spawn_robot_at_position(float, float)::stat[m[K’
+  317 |         struct [01;36m[Kstat[m[K buffer;
+      |                [01;36m[K^~~~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:324:14:[m[K [01;31m[Kerror: [m[K‘[01m[KS_ISREG[m[K’ was not declared in this scope
+  324 |         if (![01;31m[KS_ISREG[m[K(buffer.st_mode)) {
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/home/janhavi/MultiMapWormholes/src/switch_places/src/move_to_map_server.cpp:349:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+  349 |         request->xml = [01;31m[K=[m[K entity_xml;  // Leave XML empty as we're passing coordinates directly
+      |                        [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/move_to_map_server.dir/build.make:76: CMakeFiles/move_to_map_server.dir/src/move_to_map_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_to_map_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

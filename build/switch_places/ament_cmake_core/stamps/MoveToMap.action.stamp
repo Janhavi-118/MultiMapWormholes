@@ -1,0 +1,16 @@
+# MoveToMap.action
+# Goal
+string map_name   # Target map name
+float64 x         # Target x-coordinate
+float64 y         # Target y-coordinate
+
+---
+# Result
+bool success      # Whether the robot reached the target or not
+string message    # Additional message
+
+---
+# Feedback
+float64 current_x   # Current x-coordinate
+float64 current_y   # Current y-coordinate
+

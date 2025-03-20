@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/janhavi/MultiMapWormholes/build/switch_places/move_to_map_server" "/home/janhavi/MultiMapWormholes/build/switch_places/move_to_map_client" "TARGETS" "move_to_map_server" "move_to_map_client" "DESTINATION" "lib/switch_places")
