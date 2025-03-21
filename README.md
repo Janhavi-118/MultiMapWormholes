@@ -143,4 +143,4 @@ This should trigger the bot to reach the position implied by reaching the respec
  - After the task completes, send the result indicating success.
 
 ## Flow of the code
-[Flowchart](assests/flowchart.jpeg)
+![Flowchart](assests/flowchart.jpeg)
