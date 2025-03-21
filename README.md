@@ -110,4 +110,37 @@ Enter the x and y coordinates of the target position after entering the room nam
 
 This should trigger the bot to reach the position implied by reaching the respective wormhole and then the target coordinates given.
 
+## Algorithm
 
+- Initialize Action Server:
+ - Create an action server for MoveToMap with methods for handling goals, cancellations, and feedback.
+ - Subscribe to robot odometry to track the current position of the robot.
+
+- Handle Action Goal:
+ - When a goal is received (a target map and position), check if the robot is already on the correct map:
+  - If yes, proceed to move directly to the target location.
+  - If no, navigate to the wormhole and switch to the target map.
+   
+- Handle Goal Execution:
+ - For the same map:
+  - Directly move to the target coordinates.
+ - For a different map:
+  - Move to the wormhole location in the current map (fetch coordinates from the database).
+  - Switch maps by deleting the current robot model, loading the new map, and spawning the robot at the new wormhole coordinates.
+
+- Move to Target:
+ - Use a publisher to send goal positions to the robot.
+ - Continuously check if the robot has reached the target position by comparing its current position (from odometry) with the goal position.
+ - Once the robot reaches the goal, mark the task as completed.
+
+- Switch Maps (if necessary):
+ - Query the database for wormhole coordinates for the current and target maps.
+ - Delete the current robot model and spawn it in the new map.
+ - Publish the initial pose on the map after spawning the robot.
+
+- Feedback and Completion:
+ - Periodically send feedback updates during the movement.
+ - After the task completes, send the result indicating success.
+
+## Flow of the code
+[Flowchart](assests/flowchart.jpeg)
