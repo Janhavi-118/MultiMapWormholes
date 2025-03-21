@@ -38,7 +38,15 @@ sudo apt install -y ros-humble-navigation2 ros-humble-nav2-bringup
 
 More details: [Nav2 Getting Started Guide](https://navigation.ros.org/getting_started/index.html)
 
-### 5. Clone and Build the `switch_places` Package
+### 5. Install SQLite3
+
+```bash
+sudo apt install -y sqlite3 libsqlite3-dev
+```
+
+Or look into the steps on [this site](https://ultahost.com/knowledge-base/install-sqlite-on-ubuntu/)
+
+### 6. Clone and Build the `switch_places` Package
 
 ```bash
 git clone https://github.com/Janhavi-118/MultiMapWormholes.git
