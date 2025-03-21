@@ -53,7 +53,6 @@ gazebo_msgs
 switch_places_msgs
 )
 
-
 # Add the client executable
 add_executable(move_to_map_client src/move_to_map_client.cpp)
 ament_target_dependencies(move_to_map_client rclcpp rclcpp_action geometry_msgs gazebo_msgs switch_places_msgs)

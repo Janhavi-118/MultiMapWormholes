@@ -16,11 +16,9 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-class MoveToMapActionServer : public rclcpp::Node
-{
+class MoveToMapActionServer : public rclcpp::Node {
 public:
-    MoveToMapActionServer() : Node("move_to_map_action_server")
-    {
+    MoveToMapActionServer() : Node("move_to_map_action_server") {
         using namespace std::placeholders;
 
         action_server_ = rclcpp_action::create_server<switch_places_msgs::action::MoveToMap>(
@@ -62,16 +60,14 @@ private:
     rclcpp_action::Server<switch_places_msgs::action::MoveToMap>::SharedPtr action_server_;
     sqlite3 *db_; // SQLite database pointer
 
-    rclcpp_action::GoalResponse handle_goal(const std::array<unsigned char, 16>& uuid, std::shared_ptr<const switch_places_msgs::action::MoveToMap::Goal> goal)
-    {
+    rclcpp_action::GoalResponse handle_goal(const std::array<unsigned char, 16>& uuid, std::shared_ptr<const switch_places_msgs::action::MoveToMap::Goal> goal) {
         (void)uuid;
         RCLCPP_INFO(this->get_logger(), "Received goal request to move to map: %s", goal->map_name.c_str());
         return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
     }
 
     // Handle cancellation of the goal
-    rclcpp_action::CancelResponse handle_cancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places_msgs::action::MoveToMap>> goal_handle)
-    {
+    rclcpp_action::CancelResponse handle_cancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places_msgs::action::MoveToMap>> goal_handle) {
         (void)goal_handle;
         current_room = "entrance";
         RCLCPP_INFO(this->get_logger(), "Canceling goal...");
@@ -79,15 +75,13 @@ private:
     }
 
     // Handle the execution of the goal
-    void handle_accepted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places_msgs::action::MoveToMap>> goal_handle)
-    {
+    void handle_accepted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places_msgs::action::MoveToMap>> goal_handle) {
         (void)goal_handle;
         std::thread{std::bind(&MoveToMapActionServer::execute, this, std::placeholders::_1), goal_handle}.detach();
     }
 
     // Execute the goal: navigate to the wormhole or directly to the target map
-    void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places_msgs::action::MoveToMap>> goal_handle)
-    {
+    void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<switch_places_msgs::action::MoveToMap>> goal_handle) {
         auto goal = goal_handle->get_goal();
         auto feedback = std::make_shared<switch_places_msgs::action::MoveToMap::Feedback>();
         auto result = std::make_shared<switch_places_msgs::action::MoveToMap::Result>();
@@ -97,7 +91,8 @@ private:
         if (is_robot_in_same_map(goal->map_name)) {
             RCLCPP_INFO(this->get_logger(), "Robot is already in the correct map. Moving to the target location.");
             move_robot(goal->x, goal->y);
-        } else {
+        } 
+        else {
             RCLCPP_INFO(this->get_logger(), "Robot needs to switch maps. Navigating to the wormhole...");
             navigate_to_wormhole(current_room);
             switch_map(goal->map_name);
@@ -123,8 +118,8 @@ private:
         curr_x = msg->pose.pose.position.x;
         curr_y = msg->pose.pose.position.y;
     }
-    bool is_robot_in_same_map(const std::string &target_map)
-    {
+
+    bool is_robot_in_same_map(const std::string &target_map) {
         if (current_room == target_map) {
             return true;
         }
@@ -176,7 +171,8 @@ private:
             wormhole_x = sqlite3_column_double(stmt, 0); // Fetch x-coordinate
             wormhole_y = sqlite3_column_double(stmt, 1); // Fetch y-coordinate
             RCLCPP_INFO(this->get_logger(), "Wormhole coordinates for map '%s' are: (%.2f, %.2f)", current_map.c_str(), wormhole_x, wormhole_y);
-        } else {
+        } 
+        else {
             RCLCPP_ERROR(this->get_logger(), "Failed to fetch wormhole coordinates for map '%s'", current_map.c_str());
         }
 
@@ -196,14 +192,13 @@ private:
         return std::string((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
     }
 
-    void switch_map(const std::string &map_name)
-    {
-        // Step 1: Delete the current robot model from the simulation
+    void switch_map(const std::string &map_name) {
+        // Delete the current robot model from the simulation
         bool res = delete_robot_model();
         while(!res) {
             // Wait for the robot model to be deleted
         }
-        // Step 2: Fetch the wormhole coordinates for the new map from the database
+        // Fetch the wormhole coordinates for the new map from the database
         float wormhole_x = 0.0;
         float wormhole_y = 0.0;
         // Query to get the wormhole coordinates from the database
@@ -211,8 +206,7 @@ private:
         sqlite3_stmt *stmt;
 
         // Prepare the SQL statement
-        if (sqlite3_prepare_v2(db_, sql, -1, &stmt, nullptr) != SQLITE_OK)
-        {
+        if (sqlite3_prepare_v2(db_, sql, -1, &stmt, nullptr) != SQLITE_OK) {
             RCLCPP_ERROR(this->get_logger(), "Failed to prepare statement: %s", sqlite3_errmsg(db_));
         }
 
@@ -220,26 +214,24 @@ private:
         sqlite3_bind_text(stmt, 1, map_name.c_str(), -1, SQLITE_STATIC);
 
         // Execute the query and fetch the result
-        if (sqlite3_step(stmt) == SQLITE_ROW)
-        {
+        if (sqlite3_step(stmt) == SQLITE_ROW) {
             wormhole_x = sqlite3_column_double(stmt, 0); // Fetch x-coordinate
             wormhole_y = sqlite3_column_double(stmt, 1); // Fetch y-coordinate
             RCLCPP_INFO(this->get_logger(), "Wormhole coordinates for map '%s' are: (%.2f, %.2f)", map_name.c_str(), wormhole_x, wormhole_y);
             sqlite3_finalize(stmt);
         }
-        else
-        {
+        else {
             RCLCPP_ERROR(this->get_logger(), "Failed to fetch wormhole coordinates for map '%s'", map_name.c_str());
             sqlite3_finalize(stmt);
         }
     
-        // Step 3: Load the new map using the map_server service
+        // Load the new map using the map_server service
         bool res2 = load_new_map(map_name);
         while (!res2) {
             // Wait
         }
 
-        // Step 4: Spawn the robot at the new wormhole location
+        // Spawn the robot at the new wormhole location
         bool res3 = spawn_robot_at_position(wormhole_x, wormhole_y);
         while (!res3) {
             RCLCPP_INFO(this->get_logger(), "im stuck in after bot spawn while loop");
@@ -249,7 +241,7 @@ private:
         publish_initial_pose(wormhole_x, wormhole_y);
     }
 
-        // Function to publish the initial pose to the initialpose topic
+    // Function to publish the initial pose to the initialpose topic
     void publish_initial_pose(float x, float y) {
         geometry_msgs::msg::PoseWithCovarianceStamped pose_msg;
         pose_msg.header.frame_id = "map";  // Ensure it's the map frame
@@ -274,9 +266,7 @@ private:
     }
     
 
-    bool load_map_callback(
-        rclcpp::Client<nav2_msgs::srv::LoadMap>::SharedFuture future_response)
-    {
+    bool load_map_callback(rclcpp::Client<nav2_msgs::srv::LoadMap>::SharedFuture future_response) {
         bool success;
         auto response = future_response.get();
         RCLCPP_INFO(this->get_logger(), "Map load response code: %d", response->result);
@@ -284,7 +274,8 @@ private:
         if (response->result == 255 || response->result == 0) {
             RCLCPP_INFO(this->get_logger(), "Map loaded successfully!");
             success = true;
-        } else {
+        } 
+        else {
             RCLCPP_ERROR(this->get_logger(), "Failed to load map, error code: %d", response->result);
             success = false;
         }
@@ -293,14 +284,12 @@ private:
     }
     
     
-    bool load_new_map(const std::string &map_name)
-    {
+    bool load_new_map(const std::string &map_name) {
         // Load the new map using the map_server service
         rclcpp::Client<nav2_msgs::srv::LoadMap>::SharedPtr load_map_client =
             this->create_client<nav2_msgs::srv::LoadMap>("/map_server/load_map");
 
-        while (!load_map_client->wait_for_service(std::chrono::seconds(1)))
-        {
+        while (!load_map_client->wait_for_service(std::chrono::seconds(1))) {
             RCLCPP_INFO(this->get_logger(), "Waiting for load_map service to become available...");
         }
 
@@ -320,26 +309,21 @@ private:
     }
 
 
-    bool delete_entity_callback(rclcpp::Client<gazebo_msgs::srv::DeleteEntity>::SharedFuture defuture)
-    {
+    bool delete_entity_callback(rclcpp::Client<gazebo_msgs::srv::DeleteEntity>::SharedFuture defuture) {
         bool success;
-        try
-        {
+        try {
 
             auto response = defuture.get();
-            if (response->success)
-            {
+            if (response->success) {
                 RCLCPP_INFO(this->get_logger(), "Entity successfully deleted.");
                 success = true;
             }
-            else
-            {
+            else {
                 RCLCPP_WARN(this->get_logger(), "Failed to delete entity.");
                 success = false;
             }
         }
-        catch (const std::exception &e)
-        {
+        catch (const std::exception &e) {
             RCLCPP_ERROR(this->get_logger(), "Exception while deleting entity: %s", e.what());
             success = false;
         }
@@ -347,14 +331,12 @@ private:
         return success;
     }
 
-    bool delete_robot_model()
-    {
+    bool delete_robot_model() {
         // Delete the robot model using the delete_entity service
         rclcpp::Client<gazebo_msgs::srv::DeleteEntity>::SharedPtr delete_client =
             this->create_client<gazebo_msgs::srv::DeleteEntity>("/delete_entity");
         
-        while (!delete_client->wait_for_service(std::chrono::seconds(1)))
-        {
+        while (!delete_client->wait_for_service(std::chrono::seconds(1))) {
             RCLCPP_INFO(this->get_logger(), "Waiting for delete_entity service to become available...");
         }
         
@@ -374,19 +356,15 @@ private:
 
     }
 
-    bool spawn_entity_callback(
-        rclcpp::Client<gazebo_msgs::srv::SpawnEntity>::SharedFuture future_response)
-    {
+    bool spawn_entity_callback(rclcpp::Client<gazebo_msgs::srv::SpawnEntity>::SharedFuture future_response) {
         auto response = future_response.get();
         bool success;
         
-        // Create the PoseWithCovarianceStamped message
-        
-        // Check the response for success
-        if (response->success) {  // If there's no 'success', check for appropriate status field
+        if (response->success) {  
             RCLCPP_INFO(this->get_logger(), "Entity spawned successfully!");
             success = true;
-        } else {
+        } 
+        else {
             RCLCPP_ERROR(this->get_logger(), "Failed to spawn entity: %s", response->status_message.c_str());
             success = false;
         }
@@ -394,8 +372,7 @@ private:
         return success;
     }
 
-    bool spawn_robot_at_position(float x, float y)
-    {
+    bool spawn_robot_at_position(float x, float y) {
         // Spawn the robot at the new wormhole coordinates
         rclcpp::Client<gazebo_msgs::srv::SpawnEntity>::SharedPtr spawn_client =
             this->create_client<gazebo_msgs::srv::SpawnEntity>("/spawn_entity");
@@ -407,14 +384,13 @@ private:
         // Prepare the request to spawn the robot at the wormhole coordinates
         auto request = std::make_shared<gazebo_msgs::srv::SpawnEntity::Request>();
         request->name = "waffle_pi"; // Name of the robot
-        request->xml = model_xml;  // Leave XML empty as we're passing coordinates directly
-        //request->robot_namespace = "";  // Optionally specify a robot namespace
+        request->xml = model_xml;
         request->reference_frame = "map";  // Reference frame for the spawn
 
         // Directly use x, y, and z for position
         request->initial_pose.position.x = x;
         request->initial_pose.position.y = y;
-        request->initial_pose.position.z = 0.0;  // Assuming ground level
+        request->initial_pose.position.z = 0.0;  // Ground level
 
         // Orientation (assuming no rotation)
         request->initial_pose.orientation.x = 0.0;
@@ -433,8 +409,6 @@ private:
 
     }
 
-    float get_current_x() { return 0.0; } // Dummy placeholder for actual method to get x
-    float get_current_y() { return 0.0; } // Dummy placeholder for actual method to get y
 };
 
 int main(int argc, char **argv)
